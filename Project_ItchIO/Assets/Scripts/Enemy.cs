@@ -4,15 +4,33 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private int hp;
+    [SerializeField] private GameObject player;
+
+
+    private void Update()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Walking()
     {
-        
+
+    }
+
+    private void Die()
+    {
+        if (hp <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "PogostickPlayer")
+        {
+            Die();
+        }
     }
 }
