@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int hp;
+    public int hp = 1;
     public GameObject player;
 
     public void Die()
     {
+        hp = -1;
         if (hp <= 0)
         {
             Destroy(gameObject);
@@ -17,9 +18,9 @@ public class Enemy : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("kmkmkmkmkm");
         if (collision.gameObject.tag == "PogostickPlayer")
         {
+            
             Die();
         }
     }
