@@ -8,11 +8,12 @@ public class FlyingEnemy : Enemy
     private Vector3 secondPos;
 
     [SerializeField] private float speed;
-    [SerializeField] private Vector3 journeyLength = new Vector3(5f, 0f, 0f);
-
+    [SerializeField] private float journeyLengthX = 3;
+    private Vector3 journeyLength;
 
     void Start()
     {
+        journeyLength = new Vector3(journeyLengthX, 0, 0);
         firstPos = transform.position;
         secondPos = transform.position += journeyLength;
         transform.position = firstPos;
