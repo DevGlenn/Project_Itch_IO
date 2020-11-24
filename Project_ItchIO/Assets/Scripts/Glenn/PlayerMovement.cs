@@ -7,13 +7,18 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
     private RectTransform rt;
+
     [Header("Jump")]
     [SerializeField] private float jumpTime = 1f; // how long it takes in seconds to charge the bar fully
-    [SerializeField] Image pogoChargeBar;
+    [SerializeField] private Image pogoChargeBar;
     [SerializeField] private float jumpForce;
     private bool isGrounded = false;
+    private float chargeValue; // value from 0 to 1
 
-    private float chargeValue; // value from 0 to 1 
+    [Header("Health")]
+    [SerializeField] private Image heart1, heart2, heart3;
+    private int hp = 3;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -22,36 +27,95 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        Jump();
+       
+    }
+    private void Jump()
+    {
         #region Jump
         // charge power whenever you hold down the space button
-        if (Input.GetKey(KeyCode.Space)&& isGrounded)
+        if (Input.GetKey(KeyCode.Space))
         {
             chargeValue = Mathf.Clamp01(chargeValue + Time.deltaTime / jumpTime); // charge jump and prevent value from exceeding 1
         }
 
-        if (Input.GetKeyUp(KeyCode.Space) && isGrounded)
+        if (Input.GetKeyUp(KeyCode.Space))
         {
             rb.velocity = new Vector2(rb.velocity.x, chargeValue * jumpForce); // execute jump
             chargeValue = 0f; // reset charge
         }
-        pogoChargeBar.fillAmount = chargeValue; 
+        pogoChargeBar.fillAmount = chargeValue;
         #endregion
     }
+    #region TakeDamage/Health
+    private void TakeDamage()
+    {
+        hp--;
+        if (hp == 2)
+        {
+            heart3.enabled = false;
+        }
+        else if (hp == 1)
+        {
+            heart2.enabled = false;
+        }
+        else if (hp == 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    private void GetHP()
+    {
+        if (hp <= 3)
+        {
+            hp++;
+            if (hp == 1)
+            {
+                heart1.enabled = true;
+            }
+            else if (hp == 2)
+            {
+                heart2.enabled = true;
+            }
+            else if (hp == 3)
+            {
+                heart3.enabled = true;
+            }
+        }
+    }
+    #endregion
+
     #region IsGrounded
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == ("Ground"))
         {
             isGrounded = true;
         }
+
+        if (collision.gameObject.tag == "Enemy")
+        {
+            TakeDamage();
+        }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == ("Ground"))
+        if (collision.gameObject.tag == ("Ground"))
         {
             isGrounded = false;
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "HeartPickup")
+        {
+            GetHP();
+            Destroy(collision.gameObject);
+        }
+    }
+   
     #endregion
 
 }
