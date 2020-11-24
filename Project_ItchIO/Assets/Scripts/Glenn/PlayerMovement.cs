@@ -8,14 +8,14 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private RectTransform rt;
 
-    [Header("Jump")]
+    
     [SerializeField] private float jumpTime = 1f; // how long it takes in seconds to charge the bar fully
     [SerializeField] private Image pogoChargeBar;
     [SerializeField] private float jumpForce;
     private bool isGrounded = false;
     private float chargeValue; // value from 0 to 1
 
-    [Header("Health")]
+    
     [SerializeField] private Image heart1, heart2, heart3;
     private int hp = 3;
 
