@@ -1,0 +1,102 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class Player : MonoBehaviour
+{
+    [Header("Jump")]
+    private Rigidbody2D rb;
+    [SerializeField] private float jumpTime = 1f; // how long it takes in seconds to charge the bar fully
+    [SerializeField] Image pogoChargeBar;
+    [SerializeField] private float jumpForce;
+
+    [SerializeField] private Image heart1;
+    [SerializeField] private Image heart2;
+    [SerializeField] private Image heart3;
+    private int hp = 3;
+
+    private float chargeValue; // value from 0 to 1 
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    void Update()
+    {
+        Jump();
+    }
+
+    private void TakeDamage()
+    {
+        hp--;
+        if (hp == 2)
+        {
+            heart3.enabled = false;
+        }
+        else if (hp == 1)
+        {
+            heart2.enabled = false;
+        }
+        else if (hp == 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    private void GetHP()
+    {
+        if (hp <= 3)
+        {
+            hp++;
+            if (hp == 1)
+            {
+                heart1.enabled = true;
+            }
+            else if (hp == 2)
+            {
+                heart2.enabled = true;
+            }
+            else if (hp == 3)
+            {
+                heart3.enabled = true;
+            }
+        }
+    }
+
+    private void Jump()
+    {
+        #region Jump
+        // charge power whenever you hold down the space button
+        if (Input.GetKey(KeyCode.Space))
+        {
+            chargeValue = Mathf.Clamp01(chargeValue + Time.deltaTime / jumpTime); // charge jump and prevent value from exceeding 1
+        }
+
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            rb.velocity = new Vector2(rb.velocity.x, chargeValue * jumpForce); // execute jump
+            chargeValue = 0f; // reset charge
+        }
+        pogoChargeBar.fillAmount = chargeValue;
+        #endregion
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            TakeDamage();
+        }
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "HeartPickup")
+        {
+            GetHP();
+            Destroy(collision.gameObject);
+        }
+    }
+}
