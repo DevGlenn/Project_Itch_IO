@@ -9,10 +9,10 @@ public class PlayerMovement : MonoBehaviour
     private RectTransform rt;
 
     
-    [SerializeField] private float jumpTime = 1f; // how long it takes in seconds to charge the bar fully
+    public float jumpTime = 1f; // how long it takes in seconds to charge the bar fully
     [SerializeField] private Image pogoChargeBar;
     [SerializeField] private float jumpForce;
-    private bool isGrounded = false;
+    private bool isGrounded;
     private float chargeValue; // value from 0 to 1
 
     
@@ -34,12 +34,12 @@ public class PlayerMovement : MonoBehaviour
     {
         #region Jump
         // charge power whenever you hold down the space button
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) && isGrounded)
         {
             chargeValue = Mathf.Clamp01(chargeValue + Time.deltaTime / jumpTime); // charge jump and prevent value from exceeding 1
         }
 
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.Space) && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, chargeValue * jumpForce); // execute jump
             chargeValue = 0f; // reset charge
@@ -94,19 +94,20 @@ public class PlayerMovement : MonoBehaviour
         {
             isGrounded = true;
         }
+       
 
         if (collision.gameObject.tag == "Enemy")
         {
             TakeDamage();
         }
     }
+
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == ("Ground"))
-        {
-            isGrounded = false;
-        }
+        isGrounded = false;
     }
+    #endregion
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "HeartPickup")
@@ -116,6 +117,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
    
-    #endregion
+    
 
 }
