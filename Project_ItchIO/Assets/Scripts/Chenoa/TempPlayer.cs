@@ -3,21 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerMovement : MonoBehaviour
+public class TempPlayer : MonoBehaviour
 {
     private Rigidbody2D rb;
     private RectTransform rt;
 
-    
+
     [SerializeField] private float jumpTime = 1f; // how long it takes in seconds to charge the bar fully
     [SerializeField] private Image pogoChargeBar;
     [SerializeField] private float jumpForce;
     private bool isGrounded = false;
     private float chargeValue; // value from 0 to 1
 
-    
+
     [SerializeField] private Image heart1, heart2, heart3;
     private int hp = 3;
+
+    private float jumpPickupTimer = 10f;
+    private bool jumpPickupIsPickedUp = false;
 
     void Start()
     {
@@ -28,23 +31,39 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         Jump();
-       
+
+        if (jumpPickupIsPickedUp)
+        {
+            if (jumpPickupTimer <= 0)
+            {
+                ResetJumpPickupTimer();
+            }
+            else
+            {
+                jumpPickupTimer -= Time.deltaTime;
+            }
+        }
     }
     private void Jump()
     {
         #region Jump
-        // charge power whenever you hold down the space button
-        if (Input.GetKey(KeyCode.Space))
-        {
-            chargeValue = Mathf.Clamp01(chargeValue + Time.deltaTime / jumpTime); // charge jump and prevent value from exceeding 1
-        }
 
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (isGrounded)
         {
-            rb.velocity = new Vector2(rb.velocity.x, chargeValue * jumpForce); // execute jump
-            chargeValue = 0f; // reset charge
+            // charge power whenever you hold down the space button
+            if (Input.GetKey(KeyCode.Space))
+            {
+                chargeValue = Mathf.Clamp01(chargeValue + Time.deltaTime / jumpTime); // charge jump and prevent value from exceeding 1
+            }
+
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
+                rb.velocity = new Vector2(rb.velocity.x, chargeValue * jumpForce); // execute jump
+                chargeValue = 0f; // reset charge
+            }
+            pogoChargeBar.fillAmount = chargeValue;
         }
-        pogoChargeBar.fillAmount = chargeValue;
+        
         #endregion
     }
     #region TakeDamage/Health
@@ -86,27 +105,41 @@ public class PlayerMovement : MonoBehaviour
     }
     #endregion
 
+    private void GetJumpPickup()
+    {
+        jumpPickupIsPickedUp = true;
+        jumpTime = 0.5f;
+        jumpPickupTimer = 10f;
+    }
+
+    private void ResetJumpPickupTimer()
+    {
+        jumpPickupIsPickedUp = false;
+        jumpTime = 1f;
+        jumpPickupTimer = 10f;
+    }
+
     #region IsGrounded
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.gameObject.tag == ("Ground"))
+        if (collision.gameObject.tag == "Ground")
         {
             isGrounded = true;
         }
 
-        if (other.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy")
         {
             TakeDamage();
         }
     }
+
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == ("Ground"))
-        {
-            isGrounded = false;
-        }
+        isGrounded = false;
     }
+    #endregion
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "HeartPickup")
@@ -114,8 +147,13 @@ public class PlayerMovement : MonoBehaviour
             GetHP();
             Destroy(collision.gameObject);
         }
+
+        if (collision.gameObject.tag == "JumpPickup")
+        {
+            GetJumpPickup();
+            Destroy(collision.gameObject);
+        }
     }
-   
-    #endregion
+
 
 }
