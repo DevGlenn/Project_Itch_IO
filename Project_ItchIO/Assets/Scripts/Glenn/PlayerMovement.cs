@@ -19,6 +19,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Image heart1, heart2, heart3;
     private int hp = 3;
 
+    private float jumpPickupTimer = 10f;
+    private bool jumpPickupIsPickedUp = false;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -28,7 +31,18 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         Jump();
-       
+
+        if (jumpPickupIsPickedUp)
+        {
+            if (jumpPickupTimer <= 0)
+            {
+                ResetJumpPickupTimer();
+            }
+            else
+            {
+                jumpPickupTimer -= Time.deltaTime;
+            }
+        }
     }
     private void Jump()
     {
@@ -85,7 +99,19 @@ public class PlayerMovement : MonoBehaviour
         }
     }
     #endregion
+    private void GetJumpPickup()
+    {
+        jumpPickupIsPickedUp = true;
+        jumpTime = 0.5f;
+        jumpPickupTimer = 10f;
+    }
 
+    private void ResetJumpPickupTimer()
+    {
+        jumpPickupIsPickedUp = false;
+        jumpTime = 1f;
+        jumpPickupTimer = 10f;
+    }
     #region IsGrounded
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -113,6 +139,12 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "HeartPickup")
         {
             GetHP();
+            Destroy(collision.gameObject);
+        }
+
+        if (collision.gameObject.tag == "JumpPickup")
+        {
+            GetJumpPickup();
             Destroy(collision.gameObject);
         }
     }
