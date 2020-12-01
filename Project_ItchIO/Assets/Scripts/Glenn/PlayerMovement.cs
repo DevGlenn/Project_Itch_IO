@@ -6,26 +6,45 @@ using UnityEngine.UI;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private RectTransform rt;
+    private RectTransform rectTransform;
+    private SpriteRenderer spriteRenderer;
 
-    
-    public float jumpTime = 1f; // how long it takes in seconds to charge the bar fully
+
+    private float jumpTime = 1f; // how long it takes in seconds to charge the bar fully
     [SerializeField] private Image pogoChargeBar;
     [SerializeField] private float jumpForce;
     private bool isGrounded;
     private float chargeValue; // value from 0 to 1
 
-    
+
     [SerializeField] private Image heart1, heart2, heart3;
     private int hp = 3;
 
     private float jumpPickupTimer = 10f;
     private bool jumpPickupIsPickedUp = false;
 
+    public bool FacingRight
+    {
+        get
+        {
+            return !spriteRenderer.flipX;
+        }
+    }
+
+    public int FacingDirection
+    {
+        get
+        { 
+            return spriteRenderer.flipX ? -1 : 1;
+        }
+    }
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rt = GetComponent<RectTransform>();
+        rectTransform = GetComponent<RectTransform>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -43,6 +62,22 @@ public class PlayerMovement : MonoBehaviour
                 jumpPickupTimer -= Time.deltaTime;
             }
         }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            spriteRenderer.flipX = true;
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            spriteRenderer.flipX = false;
+        }
+    }
+    private void FixedUpdate()
+    {
+       
+        
+
     }
     private void Jump()
     {
@@ -55,13 +90,13 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Space) && isGrounded)
         {
-            rb.velocity = new Vector2(rb.velocity.x, chargeValue * jumpForce); // execute jump
+            rb.velocity = new Vector2(10f * FacingDirection, chargeValue * jumpForce); // execute jump
             chargeValue = 0f; // reset charge
         }
         pogoChargeBar.fillAmount = chargeValue;
         #endregion
     }
-    #region TakeDamage/Health
+    
     private void TakeDamage()
     {
         hp--;
@@ -98,7 +133,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
-    #endregion
+   
     private void GetJumpPickup()
     {
         jumpPickupIsPickedUp = true;
@@ -112,8 +147,7 @@ public class PlayerMovement : MonoBehaviour
         jumpTime = 1f;
         jumpPickupTimer = 10f;
     }
-    #region IsGrounded
-
+     
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == ("Ground"))
@@ -132,8 +166,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isGrounded = false;
     }
-    #endregion
-
+   
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "HeartPickup")
@@ -149,6 +182,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
    
+
     
 
 }

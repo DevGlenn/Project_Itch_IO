@@ -1059,6 +1059,10 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7984165110791533615, guid: 98b345a2998f5d448846d04b267d2f5f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7984165110791533619, guid: 98b345a2998f5d448846d04b267d2f5f, type: 3}
       propertyPath: m_Name
       value: Player
