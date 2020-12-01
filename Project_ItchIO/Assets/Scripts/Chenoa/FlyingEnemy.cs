@@ -19,7 +19,7 @@ public class FlyingEnemy : Enemy
     void Start()
     {
         flyingEnemyRenderer = gameObject.GetComponent<SpriteRenderer>();
-        flyingEnemyRenderer.flipX = false;
+        flyingEnemyRenderer.flipX = true;
 
         journeyLength = new Vector3(journeyLengthX, 0, 0);
         firstPos = transform.position;
@@ -39,17 +39,17 @@ public class FlyingEnemy : Enemy
 
         if (currentPos.x < secondPos.x && goingToSecondPos == true)
         {
-            flyingEnemyRenderer.flipX = false;
+            flyingEnemyRenderer.flipX = true;
             if (currentPos.x > secondPos.x - 0.1f)
             {
                 goingToSecondPos = false;
-                flyingEnemyRenderer.flipX = true;
+                flyingEnemyRenderer.flipX = false;
             }
         }
         else if (currentPos.x < firstPos.x + 0.1f && goingToSecondPos == false)
         {
             goingToSecondPos = true;
-            flyingEnemyRenderer.flipX = true;
+            flyingEnemyRenderer.flipX = false;
         }
     }
 }
