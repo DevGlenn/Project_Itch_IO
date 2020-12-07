@@ -13,15 +13,19 @@ public class PlayerMovement : MonoBehaviour
     private float jumpTime = 1f; // how long it takes in seconds to charge the bar fully
     [SerializeField] private Image pogoChargeBar;
     [SerializeField] private float jumpForce;
+    [SerializeField] private Collider2D playerCollider;
     private bool isGrounded;
     private float chargeValue; // value from 0 to 1
 
 
-    [SerializeField] private Image heart1, heart2, heart3;
+    //[SerializeField] private Image heart1, heart2, heart3;
+    [SerializeField] private Image[] hearts;
     private int hp = 3;
 
     private float jumpPickupTimer = 10f;
     private bool jumpPickupIsPickedUp = false;
+
+    public Collider2D PlayerCollider { get => playerCollider; }
 
     public bool FacingRight
     {
@@ -39,10 +43,12 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+	private void Awake() {
+        rb = GetComponent<Rigidbody2D>();
 
+    }
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         rectTransform = GetComponent<RectTransform>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -73,12 +79,8 @@ public class PlayerMovement : MonoBehaviour
             spriteRenderer.flipX = false;
         }
     }
-    private void FixedUpdate()
-    {
-       
-        
 
-    }
+
     private void Jump()
     {
         #region Jump
@@ -96,42 +98,26 @@ public class PlayerMovement : MonoBehaviour
         pogoChargeBar.fillAmount = chargeValue;
         #endregion
     }
-    
-    private void TakeDamage()
+   
+
+    public void TakeDamage()
     {
-        hp--;
-        if (hp == 2)
-        {
-            heart3.enabled = false;
-        }
-        else if (hp == 1)
-        {
-            heart2.enabled = false;
-        }
-        else if (hp == 0)
-        {
-            Destroy(gameObject);
-        }
+        UpdateHitpoints(-1);
     }
 
     private void GetHP()
     {
-        if (hp <= 3)
-        {
-            hp++;
-            if (hp == 1)
-            {
-                heart1.enabled = true;
-            }
-            else if (hp == 2)
-            {
-                heart2.enabled = true;
-            }
-            else if (hp == 3)
-            {
-                heart3.enabled = true;
-            }
-        }
+        UpdateHitpoints(1);
+    }
+
+    private void UpdateHitpoints(int change) {
+        hp = Mathf.Clamp(hp + change, 0, 3);
+        for (int i = 0; i < hearts.Length; i++) {
+            hearts[i].enabled = i < hp;
+		}
+        if (hp == 0) {
+            Destroy(gameObject);
+		}
     }
    
     private void GetJumpPickup()
@@ -155,12 +141,6 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = true;
             rb.velocity = Vector3.zero;
         }
-       
-
-        if (other.gameObject.tag == "Enemy")
-        {
-            TakeDamage();
-        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -182,8 +162,4 @@ public class PlayerMovement : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
-   
-
-    
-
 }

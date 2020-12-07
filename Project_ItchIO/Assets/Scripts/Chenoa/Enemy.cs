@@ -7,7 +7,10 @@ public class Enemy : MonoBehaviour
     public int hp = 1;
     public GameObject player;
 
-    public void Die()
+    public void TakeHit() {
+        Die();
+	}
+    private void Die()
     {
         hp = -1;
         if (hp <= 0)
@@ -18,10 +21,9 @@ public class Enemy : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "PogostickPlayer")
-        {
-            
-            Die();
-        }
+        PlayerMovement player = collision.collider.GetComponent<PlayerMovement>();
+        if (player != null && collision.collider == player.PlayerCollider) {
+            player.TakeDamage();
+		}
     }
 }
