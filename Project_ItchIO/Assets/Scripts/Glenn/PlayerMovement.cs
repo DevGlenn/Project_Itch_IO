@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
     {
         get
         { 
-            return spriteRenderer.flipX ? -1 : 1;
+            return spriteRenderer.flipX ? -2 : 2;
         }
     }
 
@@ -153,6 +153,7 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.tag == ("Ground"))
         {
             isGrounded = true;
+            rb.velocity = Vector3.zero;
         }
        
 
