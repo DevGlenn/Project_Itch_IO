@@ -22,13 +22,13 @@ public class ButtonMan : MonoBehaviour
 
     private void Pause()
     {
-        pauseMenu.SetActive(true);
-        Time.timeScale = 0;
+        pauseMenu.SetActive(true); //pauze menu is te zien
+        Time.timeScale = 0; //freeze de game
     }
     public void Resume()
     {
-        pauseMenu.SetActive(false);
-        Time.timeScale = 1;
+        pauseMenu.SetActive(false); //het pauze menu is niet meer zichtbaar
+        Time.timeScale = 1; //continue de game
     }
 
     public void GoToMainMenu()
@@ -41,9 +41,9 @@ public class ButtonMan : MonoBehaviour
     }
     public void RestartLevel()
     {
-        if (SceneManager.sceneCount == 1)
+        if (SceneManager.sceneCount == 1) //als je in de eerste scene in de buildIndex zit
         {
-            SceneManager.LoadScene("Level1");
+            SceneManager.LoadScene("Level1"); //reload de scene
         }
         //else if scenemanager.scenecount == 2
         //loadscene level2

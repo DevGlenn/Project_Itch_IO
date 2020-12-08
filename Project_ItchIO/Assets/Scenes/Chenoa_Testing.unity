@@ -2077,6 +2077,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPickup
       objectReference: {fileID: 0}
+    - target: {fileID: 8338674902841741093, guid: b79e1f8d128cfb949b10770ef118949f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8338674902841741112, guid: b79e1f8d128cfb949b10770ef118949f, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -2133,6 +2137,10 @@ PrefabInstance:
     - target: {fileID: 2949390521856943848, guid: ecdb3484b55124348a071e4bb3e1ecc5, type: 3}
       propertyPath: m_Name
       value: HeartPickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 2949390521856943848, guid: ecdb3484b55124348a071e4bb3e1ecc5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2949390521856943861, guid: ecdb3484b55124348a071e4bb3e1ecc5, type: 3}
       propertyPath: m_RootOrder
