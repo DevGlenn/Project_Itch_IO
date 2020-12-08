@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
     {
         get
         { 
-            return spriteRenderer.flipX ? -1 : 1;
+            return spriteRenderer.flipX ? -2 : 2;
         }
     }
 
