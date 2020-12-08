@@ -99,6 +99,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(10f * FacingDirection, chargeValue * jumpForce); // execute jump
             chargeValue = 0f; // reset charge
+            SoundManager.PlaySound("Jump_sound");
             
         }
         pogoChargeBar.fillAmount = chargeValue;
@@ -119,13 +120,13 @@ public class PlayerMovement : MonoBehaviour
     public void TakeDamage()
     {
         UpdateHitpoints(-1);
-        
+        SoundManager.PlaySound("Hurt_Sound");
     }
 
     private void GetHP()
     {
         UpdateHitpoints(1);
-       
+        SoundManager.PlaySound("Health_pickup_sound");
     }
 
     private void UpdateHitpoints(int change) 
@@ -138,7 +139,9 @@ public class PlayerMovement : MonoBehaviour
         if (hp == 0) 
         {
             Destroy(gameObject);
-            
+            SoundManager.PlaySound("death_sound");
+
+
         }
     }
    
