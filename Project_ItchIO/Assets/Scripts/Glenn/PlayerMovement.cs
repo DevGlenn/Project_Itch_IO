@@ -27,6 +27,9 @@ public class PlayerMovement : MonoBehaviour
 
     public Collider2D PlayerCollider { get => playerCollider; }
 
+    private float jumpRotationTimer = 1f;
+    private float myRotationValue = 0;
+
     public bool FacingRight
     {
         get
@@ -39,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
     {
         get
         { 
-            return spriteRenderer.flipX ? -2 : 2;
+            return spriteRenderer.flipX ? -1 : 1;
         }
     }
 
@@ -55,6 +58,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        
+
         Jump();
 
         if (jumpPickupIsPickedUp)
@@ -96,6 +101,16 @@ public class PlayerMovement : MonoBehaviour
             chargeValue = 0f; // reset charge
         }
         pogoChargeBar.fillAmount = chargeValue;
+
+        if (isGrounded == false)
+        {
+            PlayerRotatesInAir();
+        }
+        else if (isGrounded == true) //zodra hij op de grond staat
+        {
+            myRotationValue = 0; //myRotationValue wordt op 0 gezet
+            transform.rotation = Quaternion.AngleAxis(myRotationValue, Vector3.back); //transform.rotation op de z as wordt hetzelfde als de myRotationValue, in dit geval is dat 0
+        }
         #endregion
     }
    
@@ -110,12 +125,15 @@ public class PlayerMovement : MonoBehaviour
         UpdateHitpoints(1);
     }
 
-    private void UpdateHitpoints(int change) {
-        hp = Mathf.Clamp(hp + change, 0, 3);
-        for (int i = 0; i < hearts.Length; i++) {
-            hearts[i].enabled = i < hp;
+    private void UpdateHitpoints(int change) 
+    {
+        hp = Mathf.Clamp(hp + change, 0, 3); //hp gaat + de change en zit altijd tussen de 0 en de 3
+        for (int i = 0; i < hearts.Length; i++) 
+        {
+            hearts[i].enabled = i < hp; //zet de harten aan
 		}
-        if (hp == 0) {
+        if (hp == 0) 
+        {
             Destroy(gameObject);
 		}
     }
@@ -132,6 +150,16 @@ public class PlayerMovement : MonoBehaviour
         jumpPickupIsPickedUp = false;
         jumpTime = 1f;
         jumpPickupTimer = 10f;
+    }
+
+    private void PlayerRotatesInAir()
+    {
+        if (myRotationValue < 360) //als de myRotationValue kleiner is dan 360
+        {
+            myRotationValue += Time.deltaTime * jumpRotationTimer;
+            transform.rotation = Quaternion.AngleAxis(myRotationValue, Vector3.back); //de rotatie op de Z as wordt ge-Lerpt naar de myRotationValue 
+            myRotationValue += Time.deltaTime * 1000; //myRationValue wordt + de time.deltatime gedaan, keer 1000
+        }
     }
      
     private void OnCollisionEnter2D(Collision2D other)

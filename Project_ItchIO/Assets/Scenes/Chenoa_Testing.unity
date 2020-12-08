@@ -1776,7 +1776,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.02231104, y: -0.36531264}
+  m_Offset: {x: 0.02231104, y: -0.619712}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1787,7 +1787,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.24141724, y: 0.77895665}
+  m_Size: {x: 0.24141724, y: 0.7442715}
   m_EdgeRadius: 0
 --- !u!114 &1900786067
 MonoBehaviour:
@@ -1966,7 +1966,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 2.2096806}
+  m_Offset: {x: 0, y: 1.4259123}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1977,7 +1977,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.5, y: 3.9006383}
+  m_Size: {x: 3.5, y: 5.468175}
   m_EdgeRadius: 0
 --- !u!114 &2099705118
 MonoBehaviour:
@@ -2078,7 +2078,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2099705116}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.59, y: -3.71, z: 1}
+  m_LocalPosition: {x: -4.59, y: -3.49, z: 1}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children:
   - {fileID: 1900786065}
@@ -2273,6 +2273,10 @@ PrefabInstance:
     - target: {fileID: 421168550046690792, guid: 06648130c9660654bbb882999bc84277, type: 3}
       propertyPath: m_Name
       value: WalkingEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 421168550046690792, guid: 06648130c9660654bbb882999bc84277, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 421168550046690799, guid: 06648130c9660654bbb882999bc84277, type: 3}
       propertyPath: speed
@@ -2488,6 +2492,10 @@ PrefabInstance:
     - target: {fileID: 4392026996516223038, guid: 463dcac288e2f3d4d8ecb90abeab48af, type: 3}
       propertyPath: m_Name
       value: FlyingEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4392026996516223038, guid: 463dcac288e2f3d4d8ecb90abeab48af, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 463dcac288e2f3d4d8ecb90abeab48af, type: 3}
