@@ -94,6 +94,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(10f * FacingDirection, chargeValue * jumpForce); // execute jump
             chargeValue = 0f; // reset charge
+            
         }
         pogoChargeBar.fillAmount = chargeValue;
         #endregion
@@ -103,11 +104,13 @@ public class PlayerMovement : MonoBehaviour
     public void TakeDamage()
     {
         UpdateHitpoints(-1);
+        
     }
 
     private void GetHP()
     {
         UpdateHitpoints(1);
+       
     }
 
     private void UpdateHitpoints(int change) {
@@ -117,7 +120,8 @@ public class PlayerMovement : MonoBehaviour
 		}
         if (hp == 0) {
             Destroy(gameObject);
-		}
+            
+        }
     }
    
     private void GetJumpPickup()
