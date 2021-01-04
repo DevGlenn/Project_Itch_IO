@@ -1,7 +1,34 @@
 fileFormatVersion: 2
 guid: a8825014f558d8d4d96a8460a387b192
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1076320898553489817
+    second: Flying sprite sheet_0
+  - first:
+      213: 639941668013098578
+    second: Flying sprite sheet_1
+  - first:
+      213: -713696099412779997
+    second: Flying sprite sheet_2
+  - first:
+      213: -8761769846616623356
+    second: Flying sprite sheet_3
+  - first:
+      213: -6841278878299498025
+    second: Flying sprite sheet_4
+  - first:
+      213: -473639908916839526
+    second: Flying sprite sheet_5
+  - first:
+      213: 6696980956806346784
+    second: Flying sprite sheet_6
+  - first:
+      213: 6015784924860266699
+    second: Flying sprite sheet_7
+  - first:
+      213: 2230745219275641839
+    second: Flying sprite sheet_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +59,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,7 +68,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +100,222 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Flying sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 174
+        width: 901
+        height: 842
+      alignment: 9
+      pivot: {x: 0.45829985, y: 0.2231106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9992c96972cdfee00800000000000000
+      internalID: 1076320898553489817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 158
+        width: 876
+        height: 831
+      alignment: 9
+      pivot: {x: 0.4928518, y: 0.25243798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25644e67e8781e800800000000000000
+      internalID: 639941668013098578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 158
+        width: 1092
+        height: 805
+      alignment: 9
+      pivot: {x: 0.5774147, y: 0.26059127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c5beccd217816f0800000000000000
+      internalID: -713696099412779997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3607
+        y: 168
+        width: 1018
+        height: 806
+      alignment: 9
+      pivot: {x: 0.6107228, y: 0.27969107}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407ffa01fb0f76680800000000000000
+      internalID: -8761769846616623356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 4804
+        y: 179
+        width: 918
+        height: 800
+      alignment: 9
+      pivot: {x: 0.68076515, y: 0.28178868}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d953995b15ee01a0800000000000000
+      internalID: -6841278878299498025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 6207
+        y: 147
+        width: 643
+        height: 837
+      alignment: 9
+      pivot: {x: 0.6558194, y: 0.31796154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b3095230b4d69f0800000000000000
+      internalID: -473639908916839526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 7378
+        y: 153
+        width: 701
+        height: 826
+      alignment: 9
+      pivot: {x: 0.64739335, y: 0.30703375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0287ff5b2b470fc50800000000000000
+      internalID: 6696980956806346784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 8490
+        y: 189
+        width: 891
+        height: 779
+      alignment: 9
+      pivot: {x: 0.6089344, y: 0.26125044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc83273248c5c7350800000000000000
+      internalID: 6015784924860266699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 9766
+        y: 163
+        width: 1034
+        height: 858
+      alignment: 9
+      pivot: {x: 0.4576083, y: 0.24814327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3535b35f235fe10800000000000000
+      internalID: 2230745219275641839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
