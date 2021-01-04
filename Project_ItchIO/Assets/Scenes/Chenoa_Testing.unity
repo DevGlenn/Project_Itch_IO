@@ -2054,11 +2054,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 421168550046690792, guid: 06648130c9660654bbb882999bc84277, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 421168550046690799, guid: 06648130c9660654bbb882999bc84277, type: 3}
       propertyPath: speed
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 421168550046690799, guid: 06648130c9660654bbb882999bc84277, type: 3}
       propertyPath: m_Enabled
