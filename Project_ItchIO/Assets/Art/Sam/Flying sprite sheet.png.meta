@@ -1,7 +1,2734 @@
 fileFormatVersion: 2
 guid: a8825014f558d8d4d96a8460a387b192
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1076320898553489817
+    second: Flying sprite sheet_0
+  - first:
+      213: 639941668013098578
+    second: Flying sprite sheet_1
+  - first:
+      213: -713696099412779997
+    second: Flying sprite sheet_2
+  - first:
+      213: -8761769846616623356
+    second: Flying sprite sheet_3
+  - first:
+      213: -6841278878299498025
+    second: Flying sprite sheet_4
+  - first:
+      213: -473639908916839526
+    second: Flying sprite sheet_5
+  - first:
+      213: 6696980956806346784
+    second: Flying sprite sheet_6
+  - first:
+      213: 6015784924860266699
+    second: Flying sprite sheet_7
+  - first:
+      213: 2230745219275641839
+    second: Flying sprite sheet_8
+  - first:
+      213: 150126512106657575
+    second: Flying sprite sheet_0
+  - first:
+      213: -7346868944737649656
+    second: Flying sprite sheet_1
+  - first:
+      213: 7599965543468725407
+    second: Flying sprite sheet_2
+  - first:
+      213: -5492535823497786247
+    second: Flying sprite sheet_3
+  - first:
+      213: 7940824974681672460
+    second: Flying sprite sheet_4
+  - first:
+      213: 2203858250565916388
+    second: Flying sprite sheet_5
+  - first:
+      213: -1536720806243822344
+    second: Flying sprite sheet_6
+  - first:
+      213: 7848415507456254021
+    second: Flying sprite sheet_7
+  - first:
+      213: -9218484222952946166
+    second: Flying sprite sheet_8
+  - first:
+      213: 792081714960574687
+    second: Flying sprite sheet_9
+  - first:
+      213: -469879110465056791
+    second: Flying sprite sheet_10
+  - first:
+      213: -1181983774258610809
+    second: Flying sprite sheet_11
+  - first:
+      213: -3454281503347881975
+    second: Flying sprite sheet_12
+  - first:
+      213: -1577554661832868510
+    second: Flying sprite sheet_13
+  - first:
+      213: -5116548004832132630
+    second: Flying sprite sheet_14
+  - first:
+      213: -5591537862204450064
+    second: Flying sprite sheet_15
+  - first:
+      213: 5644255496409995725
+    second: Flying sprite sheet_16
+  - first:
+      213: -1400189618023279697
+    second: Flying sprite sheet_17
+  - first:
+      213: 4445627045293709958
+    second: Flying sprite sheet_18
+  - first:
+      213: 8205034484382272908
+    second: Flying sprite sheet_19
+  - first:
+      213: 4958762329846728021
+    second: Flying sprite sheet_20
+  - first:
+      213: 6916648275728933361
+    second: Flying sprite sheet_21
+  - first:
+      213: 6150122371541793671
+    second: Flying sprite sheet_22
+  - first:
+      213: 5536997703495365425
+    second: Flying sprite sheet_23
+  - first:
+      213: 2411873477817407416
+    second: Flying sprite sheet_24
+  - first:
+      213: 40888260045523613
+    second: Flying sprite sheet_25
+  - first:
+      213: -2210337244984727574
+    second: Flying sprite sheet_26
+  - first:
+      213: -6905228077919703810
+    second: Flying sprite sheet_27
+  - first:
+      213: -8344539621778242397
+    second: Flying sprite sheet_28
+  - first:
+      213: -4454315228004943017
+    second: Flying sprite sheet_29
+  - first:
+      213: 7546267494088947411
+    second: Flying sprite sheet_30
+  - first:
+      213: -6241707480001729046
+    second: Flying sprite sheet_31
+  - first:
+      213: -83030459211189043
+    second: Flying sprite sheet_32
+  - first:
+      213: -6050907845443537939
+    second: Flying sprite sheet_33
+  - first:
+      213: -7770763896864313077
+    second: Flying sprite sheet_34
+  - first:
+      213: -3948416380484135712
+    second: Flying sprite sheet_35
+  - first:
+      213: 3013323856264757840
+    second: Flying sprite sheet_36
+  - first:
+      213: 4080551645421559418
+    second: Flying sprite sheet_37
+  - first:
+      213: -7791881790433330399
+    second: Flying sprite sheet_38
+  - first:
+      213: 3399851248353379544
+    second: Flying sprite sheet_39
+  - first:
+      213: -7235498012762289743
+    second: Flying sprite sheet_40
+  - first:
+      213: 3809185386981014964
+    second: Flying sprite sheet_41
+  - first:
+      213: -2155332113571423372
+    second: Flying sprite sheet_42
+  - first:
+      213: 4038154856972269283
+    second: Flying sprite sheet_43
+  - first:
+      213: 6858089238635480667
+    second: Flying sprite sheet_44
+  - first:
+      213: 4994581100295009087
+    second: Flying sprite sheet_45
+  - first:
+      213: 4481337186314754187
+    second: Flying sprite sheet_46
+  - first:
+      213: 4757980420929190258
+    second: Flying sprite sheet_47
+  - first:
+      213: 5954156284249308918
+    second: Flying sprite sheet_48
+  - first:
+      213: 3159630014740736443
+    second: Flying sprite sheet_49
+  - first:
+      213: 8498007302041637035
+    second: Flying sprite sheet_50
+  - first:
+      213: 4481737221630640270
+    second: Flying sprite sheet_51
+  - first:
+      213: 4088574907537224096
+    second: Flying sprite sheet_52
+  - first:
+      213: 3072860644048515434
+    second: Flying sprite sheet_53
+  - first:
+      213: -1762980237509637759
+    second: Flying sprite sheet_54
+  - first:
+      213: 2918430136679252185
+    second: Flying sprite sheet_55
+  - first:
+      213: -7861664576925149019
+    second: Flying sprite sheet_56
+  - first:
+      213: 3000643059742736600
+    second: Flying sprite sheet_57
+  - first:
+      213: 7526867322850898652
+    second: Flying sprite sheet_58
+  - first:
+      213: -8954693660615949848
+    second: Flying sprite sheet_59
+  - first:
+      213: 8254188705532073398
+    second: Flying sprite sheet_60
+  - first:
+      213: -1250267229089654886
+    second: Flying sprite sheet_61
+  - first:
+      213: -7423688556110596622
+    second: Flying sprite sheet_62
+  - first:
+      213: 5119225606967094316
+    second: Flying sprite sheet_63
+  - first:
+      213: 5070850231288729183
+    second: Flying sprite sheet_64
+  - first:
+      213: -5638440566638062985
+    second: Flying sprite sheet_65
+  - first:
+      213: -5080668828256779300
+    second: Flying sprite sheet_66
+  - first:
+      213: -8303155077400434892
+    second: Flying sprite sheet_67
+  - first:
+      213: 8336978857489872837
+    second: Flying sprite sheet_68
+  - first:
+      213: 1175954575442193975
+    second: Flying sprite sheet_69
+  - first:
+      213: -7089546177785269641
+    second: Flying sprite sheet_70
+  - first:
+      213: -5042817714070094197
+    second: Flying sprite sheet_71
+  - first:
+      213: -2741370185653032539
+    second: Flying sprite sheet_72
+  - first:
+      213: 4770839744123347705
+    second: Flying sprite sheet_73
+  - first:
+      213: 5325376400050190738
+    second: Flying sprite sheet_74
+  - first:
+      213: 1806345459041198246
+    second: Flying sprite sheet_75
+  - first:
+      213: -4141219499150172590
+    second: Flying sprite sheet_76
+  - first:
+      213: -5961896609756578007
+    second: Flying sprite sheet_77
+  - first:
+      213: -6822775868712538855
+    second: Flying sprite sheet_78
+  - first:
+      213: 3177710155771561609
+    second: Flying sprite sheet_79
+  - first:
+      213: 9190024710672921652
+    second: Flying sprite sheet_80
+  - first:
+      213: 3940329082347570828
+    second: Flying sprite sheet_81
+  - first:
+      213: 4585577772804924461
+    second: Flying sprite sheet_82
+  - first:
+      213: -6545766549656537097
+    second: Flying sprite sheet_83
+  - first:
+      213: 3985530536223146749
+    second: Flying sprite sheet_84
+  - first:
+      213: 8331665602848068881
+    second: Flying sprite sheet_85
+  - first:
+      213: -5488814127313606799
+    second: Flying sprite sheet_86
+  - first:
+      213: -8607168204570135421
+    second: Flying sprite sheet_87
+  - first:
+      213: -1775234133181413687
+    second: Flying sprite sheet_88
+  - first:
+      213: -3960603162071679554
+    second: Flying sprite sheet_89
+  - first:
+      213: -3268637998590285510
+    second: Flying sprite sheet_90
+  - first:
+      213: 76109814785789626
+    second: Flying sprite sheet_91
+  - first:
+      213: 5100013361659368895
+    second: Flying sprite sheet_92
+  - first:
+      213: -1843715046145508643
+    second: Flying sprite sheet_93
+  - first:
+      213: 5654555904123870907
+    second: Flying sprite sheet_94
+  - first:
+      213: 7546249744349240500
+    second: Flying sprite sheet_95
+  - first:
+      213: 76363156044618762
+    second: Flying sprite sheet_96
+  - first:
+      213: -5899765109363038619
+    second: Flying sprite sheet_97
+  - first:
+      213: 8869002353455531560
+    second: Flying sprite sheet_98
+  - first:
+      213: -7572803319534868894
+    second: Flying sprite sheet_99
+  - first:
+      213: -1499014442407482733
+    second: Flying sprite sheet_100
+  - first:
+      213: -6100329823498841276
+    second: Flying sprite sheet_101
+  - first:
+      213: 5580132269785783107
+    second: Flying sprite sheet_102
+  - first:
+      213: -2063499804590069405
+    second: Flying sprite sheet_103
+  - first:
+      213: -7956891931461666307
+    second: Flying sprite sheet_104
+  - first:
+      213: -6822859578664532575
+    second: Flying sprite sheet_105
+  - first:
+      213: 3154965799185438186
+    second: Flying sprite sheet_106
+  - first:
+      213: -8024346937193286680
+    second: Flying sprite sheet_107
+  - first:
+      213: -1903056210368932266
+    second: Flying sprite sheet_108
+  - first:
+      213: -1028452427948292543
+    second: Flying sprite sheet_109
+  - first:
+      213: 3149351493667729786
+    second: Flying sprite sheet_110
+  - first:
+      213: 7819837115414588984
+    second: Flying sprite sheet_111
+  - first:
+      213: -4737300191221371476
+    second: Flying sprite sheet_112
+  - first:
+      213: -2162089468535436415
+    second: Flying sprite sheet_113
+  - first:
+      213: 306158017552591573
+    second: Flying sprite sheet_114
+  - first:
+      213: 2647568758573443009
+    second: Flying sprite sheet_115
+  - first:
+      213: 2543692321434656570
+    second: Flying sprite sheet_116
+  - first:
+      213: 6935695888386566940
+    second: Flying sprite sheet_117
+  - first:
+      213: -711929559920586635
+    second: Flying sprite sheet_118
+  - first:
+      213: 2179670202539828083
+    second: Flying sprite sheet_119
+  - first:
+      213: 8561845519931842726
+    second: Flying sprite sheet_120
+  - first:
+      213: -1816389552703423248
+    second: Flying sprite sheet_121
+  - first:
+      213: 3254139677179617750
+    second: Flying sprite sheet_122
+  - first:
+      213: -4993120682130591896
+    second: Flying sprite sheet_123
+  - first:
+      213: 213712142926948801
+    second: Flying sprite sheet_124
+  - first:
+      213: 550990020399258784
+    second: Flying sprite sheet_125
+  - first:
+      213: -4285714614331350748
+    second: Flying sprite sheet_126
+  - first:
+      213: 1030935091495147813
+    second: Flying sprite sheet_127
+  - first:
+      213: 7686393648420414800
+    second: Flying sprite sheet_128
+  - first:
+      213: 5769629825454754160
+    second: Flying sprite sheet_129
+  - first:
+      213: 3247933836737218087
+    second: Flying sprite sheet_130
+  - first:
+      213: 5448169983000871959
+    second: Flying sprite sheet_131
+  - first:
+      213: -2968856617197994082
+    second: Flying sprite sheet_132
+  - first:
+      213: -5866499062795749066
+    second: Flying sprite sheet_133
+  - first:
+      213: 7960031329866123852
+    second: Flying sprite sheet_134
+  - first:
+      213: -8841996842383489658
+    second: Flying sprite sheet_135
+  - first:
+      213: 388396484080731621
+    second: Flying sprite sheet_136
+  - first:
+      213: -6486626046534459340
+    second: Flying sprite sheet_137
+  - first:
+      213: -8106574126830840231
+    second: Flying sprite sheet_138
+  - first:
+      213: -4046709956162936828
+    second: Flying sprite sheet_139
+  - first:
+      213: 2637293126644996681
+    second: Flying sprite sheet_140
+  - first:
+      213: -4229300317980344904
+    second: Flying sprite sheet_141
+  - first:
+      213: 1786035261241580814
+    second: Flying sprite sheet_142
+  - first:
+      213: -231326663307619196
+    second: Flying sprite sheet_143
+  - first:
+      213: 4182311315105344930
+    second: Flying sprite sheet_144
+  - first:
+      213: 5672685075223795465
+    second: Flying sprite sheet_145
+  - first:
+      213: 8554866328273736193
+    second: Flying sprite sheet_146
+  - first:
+      213: -7032386513551753054
+    second: Flying sprite sheet_147
+  - first:
+      213: 7954998040724996899
+    second: Flying sprite sheet_148
+  - first:
+      213: -7026931206212939896
+    second: Flying sprite sheet_149
+  - first:
+      213: 6065226309087399786
+    second: Flying sprite sheet_150
+  - first:
+      213: 789432245013353736
+    second: Flying sprite sheet_151
+  - first:
+      213: -4474002101424104346
+    second: Flying sprite sheet_152
+  - first:
+      213: -8779835136085224674
+    second: Flying sprite sheet_153
+  - first:
+      213: -6804332461881085931
+    second: Flying sprite sheet_154
+  - first:
+      213: -1779579708936321244
+    second: Flying sprite sheet_155
+  - first:
+      213: -8741113236591454648
+    second: Flying sprite sheet_156
+  - first:
+      213: -8562266754545050554
+    second: Flying sprite sheet_157
+  - first:
+      213: 7468963947272930918
+    second: Flying sprite sheet_158
+  - first:
+      213: 7793178533657384775
+    second: Flying sprite sheet_159
+  - first:
+      213: -5577835183462684795
+    second: Flying sprite sheet_160
+  - first:
+      213: 2527179751154688177
+    second: Flying sprite sheet_161
+  - first:
+      213: 3896056866610478302
+    second: Flying sprite sheet_162
+  - first:
+      213: 4221713147898594548
+    second: Flying sprite sheet_163
+  - first:
+      213: -152192577734599656
+    second: Flying sprite sheet_164
+  - first:
+      213: -184298571869008703
+    second: Flying sprite sheet_165
+  - first:
+      213: 2990848950152513711
+    second: Flying sprite sheet_166
+  - first:
+      213: 3920959924052005139
+    second: Flying sprite sheet_167
+  - first:
+      213: 1098997027588534517
+    second: Flying sprite sheet_168
+  - first:
+      213: 5348380490025891686
+    second: Flying sprite sheet_169
+  - first:
+      213: 1849423526290515380
+    second: Flying sprite sheet_170
+  - first:
+      213: -8683828156742266743
+    second: Flying sprite sheet_171
+  - first:
+      213: 7688486395077680119
+    second: Flying sprite sheet_172
+  - first:
+      213: 2799592227061390274
+    second: Flying sprite sheet_173
+  - first:
+      213: -5982691796921996654
+    second: Flying sprite sheet_174
+  - first:
+      213: 8257657284741325544
+    second: Flying sprite sheet_175
+  - first:
+      213: 3518623752485506155
+    second: Flying sprite sheet_176
+  - first:
+      213: 633733579975604647
+    second: Flying sprite sheet_177
+  - first:
+      213: 4239902854206920617
+    second: Flying sprite sheet_178
+  - first:
+      213: -4818547447766216987
+    second: Flying sprite sheet_179
+  - first:
+      213: 5450790066100433565
+    second: Flying sprite sheet_180
+  - first:
+      213: 1083457813084350533
+    second: Flying sprite sheet_181
+  - first:
+      213: 3447323818499635307
+    second: Flying sprite sheet_182
+  - first:
+      213: 592853802575112191
+    second: Flying sprite sheet_183
+  - first:
+      213: -7113222952835388880
+    second: Flying sprite sheet_184
+  - first:
+      213: -9042716821709302734
+    second: Flying sprite sheet_185
+  - first:
+      213: -4936119124159220074
+    second: Flying sprite sheet_186
+  - first:
+      213: 1307477013366875500
+    second: Flying sprite sheet_187
+  - first:
+      213: 6345935638708516091
+    second: Flying sprite sheet_188
+  - first:
+      213: -6384724192564471610
+    second: Flying sprite sheet_189
+  - first:
+      213: 5585946365621668167
+    second: Flying sprite sheet_190
+  - first:
+      213: -4950900142528470885
+    second: Flying sprite sheet_191
+  - first:
+      213: 3330267361854230423
+    second: Flying sprite sheet_192
+  - first:
+      213: 2388274547588688645
+    second: Flying sprite sheet_193
+  - first:
+      213: -2357002414447863524
+    second: Flying sprite sheet_194
+  - first:
+      213: 7375260514860627328
+    second: Flying sprite sheet_195
+  - first:
+      213: 7383114336939249537
+    second: Flying sprite sheet_196
+  - first:
+      213: 495046116210485045
+    second: Flying sprite sheet_197
+  - first:
+      213: 6381404961794635701
+    second: Flying sprite sheet_198
+  - first:
+      213: 6092984778712277570
+    second: Flying sprite sheet_199
+  - first:
+      213: 3684606774523236000
+    second: Flying sprite sheet_200
+  - first:
+      213: -700268658433406959
+    second: Flying sprite sheet_201
+  - first:
+      213: 3384323691441246343
+    second: Flying sprite sheet_202
+  - first:
+      213: -8187960696074929413
+    second: Flying sprite sheet_203
+  - first:
+      213: 231162888785021849
+    second: Flying sprite sheet_204
+  - first:
+      213: -2800567378890700904
+    second: Flying sprite sheet_205
+  - first:
+      213: 2575590644247526094
+    second: Flying sprite sheet_206
+  - first:
+      213: -314615867205274041
+    second: Flying sprite sheet_207
+  - first:
+      213: -5032261792984017341
+    second: Flying sprite sheet_208
+  - first:
+      213: 556869373452343061
+    second: Flying sprite sheet_209
+  - first:
+      213: -7370677287398918792
+    second: Flying sprite sheet_210
+  - first:
+      213: -3346943777780732637
+    second: Flying sprite sheet_211
+  - first:
+      213: 9210564150657493221
+    second: Flying sprite sheet_212
+  - first:
+      213: -5782560646326134299
+    second: Flying sprite sheet_213
+  - first:
+      213: -2993121787504217167
+    second: Flying sprite sheet_214
+  - first:
+      213: 1215177034943092693
+    second: Flying sprite sheet_215
+  - first:
+      213: 2351438107331666117
+    second: Flying sprite sheet_216
+  - first:
+      213: 2597355738358475304
+    second: Flying sprite sheet_217
+  - first:
+      213: 6027463882809719334
+    second: Flying sprite sheet_218
+  - first:
+      213: -1717434332707703777
+    second: Flying sprite sheet_219
+  - first:
+      213: 3667468167526103370
+    second: Flying sprite sheet_220
+  - first:
+      213: 9180803652227444949
+    second: Flying sprite sheet_221
+  - first:
+      213: 2752713307690097708
+    second: Flying sprite sheet_222
+  - first:
+      213: -5262087492955913165
+    second: Flying sprite sheet_223
+  - first:
+      213: -859380369260884558
+    second: Flying sprite sheet_224
+  - first:
+      213: 3564781897269568448
+    second: Flying sprite sheet_225
+  - first:
+      213: -4353555733876997205
+    second: Flying sprite sheet_226
+  - first:
+      213: 7700060713363061070
+    second: Flying sprite sheet_227
+  - first:
+      213: -8368578407950827879
+    second: Flying sprite sheet_228
+  - first:
+      213: -699861847344525186
+    second: Flying sprite sheet_229
+  - first:
+      213: 7667103779024544803
+    second: Flying sprite sheet_230
+  - first:
+      213: 3067221768469898133
+    second: Flying sprite sheet_231
+  - first:
+      213: -1410566685260986838
+    second: Flying sprite sheet_232
+  - first:
+      213: -540117169247881634
+    second: Flying sprite sheet_233
+  - first:
+      213: 8551514300091711334
+    second: Flying sprite sheet_234
+  - first:
+      213: 4212009517766473706
+    second: Flying sprite sheet_235
+  - first:
+      213: -8064730578856192967
+    second: Flying sprite sheet_236
+  - first:
+      213: -8172549175491010985
+    second: Flying sprite sheet_237
+  - first:
+      213: -2690713504737426622
+    second: Flying sprite sheet_238
+  - first:
+      213: 777023106058041143
+    second: Flying sprite sheet_239
+  - first:
+      213: -4795599470937416033
+    second: Flying sprite sheet_240
+  - first:
+      213: 8401555133498346910
+    second: Flying sprite sheet_241
+  - first:
+      213: 915591310394219956
+    second: Flying sprite sheet_242
+  - first:
+      213: 5465289801366437513
+    second: Flying sprite sheet_243
+  - first:
+      213: 243271199148338777
+    second: Flying sprite sheet_244
+  - first:
+      213: -8674745081887915213
+    second: Flying sprite sheet_245
+  - first:
+      213: 8857039870979823111
+    second: Flying sprite sheet_246
+  - first:
+      213: -3293292439629284967
+    second: Flying sprite sheet_247
+  - first:
+      213: -3160060788155701594
+    second: Flying sprite sheet_248
+  - first:
+      213: -4444286333304355967
+    second: Flying sprite sheet_249
+  - first:
+      213: 1884951823683237436
+    second: Flying sprite sheet_250
+  - first:
+      213: -4496135191120605590
+    second: Flying sprite sheet_251
+  - first:
+      213: -467892239261000913
+    second: Flying sprite sheet_252
+  - first:
+      213: 6825207565397990748
+    second: Flying sprite sheet_253
+  - first:
+      213: -9139045526587946679
+    second: Flying sprite sheet_254
+  - first:
+      213: 7332878810674036664
+    second: Flying sprite sheet_255
+  - first:
+      213: -7669865815181103111
+    second: Flying sprite sheet_256
+  - first:
+      213: -8581038478596094269
+    second: Flying sprite sheet_257
+  - first:
+      213: -22933513431402412
+    second: Flying sprite sheet_258
+  - first:
+      213: -5296378147036096756
+    second: Flying sprite sheet_259
+  - first:
+      213: -5235377074489476550
+    second: Flying sprite sheet_260
+  - first:
+      213: -7928705509841200355
+    second: Flying sprite sheet_261
+  - first:
+      213: -694527007497577233
+    second: Flying sprite sheet_262
+  - first:
+      213: -7753284298779396957
+    second: Flying sprite sheet_263
+  - first:
+      213: -8866352123268480394
+    second: Flying sprite sheet_264
+  - first:
+      213: 2431098156962582855
+    second: Flying sprite sheet_265
+  - first:
+      213: 1645803719739942082
+    second: Flying sprite sheet_266
+  - first:
+      213: -1132399838491489070
+    second: Flying sprite sheet_267
+  - first:
+      213: -5426777902937012830
+    second: Flying sprite sheet_268
+  - first:
+      213: 4719626717314762855
+    second: Flying sprite sheet_269
+  - first:
+      213: 2502012922912011363
+    second: Flying sprite sheet_270
+  - first:
+      213: -8113571604434061424
+    second: Flying sprite sheet_271
+  - first:
+      213: -6118659651306391711
+    second: Flying sprite sheet_272
+  - first:
+      213: 911889339242407078
+    second: Flying sprite sheet_273
+  - first:
+      213: 3992690907430636077
+    second: Flying sprite sheet_274
+  - first:
+      213: 2702266104234876376
+    second: Flying sprite sheet_275
+  - first:
+      213: -903276780761526297
+    second: Flying sprite sheet_276
+  - first:
+      213: 6250384423475603446
+    second: Flying sprite sheet_277
+  - first:
+      213: -5222060480774112966
+    second: Flying sprite sheet_278
+  - first:
+      213: 6515800408496856541
+    second: Flying sprite sheet_279
+  - first:
+      213: 3996028261302173919
+    second: Flying sprite sheet_280
+  - first:
+      213: -7924246845187025564
+    second: Flying sprite sheet_281
+  - first:
+      213: -4521904634506335664
+    second: Flying sprite sheet_282
+  - first:
+      213: 2120625484688716131
+    second: Flying sprite sheet_283
+  - first:
+      213: -3352247979803575745
+    second: Flying sprite sheet_284
+  - first:
+      213: -8471930358242014713
+    second: Flying sprite sheet_285
+  - first:
+      213: -7714664969286291363
+    second: Flying sprite sheet_286
+  - first:
+      213: -4893172072908487975
+    second: Flying sprite sheet_287
+  - first:
+      213: 7180730127035827393
+    second: Flying sprite sheet_288
+  - first:
+      213: 4285237028065131932
+    second: Flying sprite sheet_289
+  - first:
+      213: -799482560861335346
+    second: Flying sprite sheet_290
+  - first:
+      213: 8608657710953554476
+    second: Flying sprite sheet_291
+  - first:
+      213: -8754798312078755861
+    second: Flying sprite sheet_292
+  - first:
+      213: -3400553922900262724
+    second: Flying sprite sheet_293
+  - first:
+      213: -3881844297671273571
+    second: Flying sprite sheet_294
+  - first:
+      213: -8692417568353454335
+    second: Flying sprite sheet_295
+  - first:
+      213: 6993879913854257005
+    second: Flying sprite sheet_296
+  - first:
+      213: 848833214894694259
+    second: Flying sprite sheet_297
+  - first:
+      213: -2561485723175934211
+    second: Flying sprite sheet_298
+  - first:
+      213: 201894871149650120
+    second: Flying sprite sheet_299
+  - first:
+      213: -7197516712762279982
+    second: Flying sprite sheet_300
+  - first:
+      213: -3955956179180373605
+    second: Flying sprite sheet_301
+  - first:
+      213: -74121212430282013
+    second: Flying sprite sheet_302
+  - first:
+      213: -7881385360737709145
+    second: Flying sprite sheet_303
+  - first:
+      213: 4337853828334476098
+    second: Flying sprite sheet_304
+  - first:
+      213: -4990711734899411442
+    second: Flying sprite sheet_305
+  - first:
+      213: -8663508376038055264
+    second: Flying sprite sheet_306
+  - first:
+      213: -4324700738491854088
+    second: Flying sprite sheet_307
+  - first:
+      213: 5817049262484683064
+    second: Flying sprite sheet_308
+  - first:
+      213: 7669052485005312480
+    second: Flying sprite sheet_309
+  - first:
+      213: -2943091748994179854
+    second: Flying sprite sheet_310
+  - first:
+      213: -8011348646666669436
+    second: Flying sprite sheet_311
+  - first:
+      213: -8693903318345516416
+    second: Flying sprite sheet_312
+  - first:
+      213: -4597523680874086790
+    second: Flying sprite sheet_313
+  - first:
+      213: -3137640992876289010
+    second: Flying sprite sheet_314
+  - first:
+      213: -337689053484579221
+    second: Flying sprite sheet_315
+  - first:
+      213: -7362639075167667478
+    second: Flying sprite sheet_316
+  - first:
+      213: 7461573322221806624
+    second: Flying sprite sheet_317
+  - first:
+      213: 5513614205652500089
+    second: Flying sprite sheet_318
+  - first:
+      213: -4089737463342929727
+    second: Flying sprite sheet_319
+  - first:
+      213: -1041853309629989044
+    second: Flying sprite sheet_320
+  - first:
+      213: 330853001330738583
+    second: Flying sprite sheet_321
+  - first:
+      213: 7590642373610020049
+    second: Flying sprite sheet_322
+  - first:
+      213: 4954329072104178464
+    second: Flying sprite sheet_323
+  - first:
+      213: 4656948553203948526
+    second: Flying sprite sheet_324
+  - first:
+      213: -1201171733155284267
+    second: Flying sprite sheet_325
+  - first:
+      213: -97884287098460438
+    second: Flying sprite sheet_326
+  - first:
+      213: 3108796487974744962
+    second: Flying sprite sheet_327
+  - first:
+      213: -6366525308662021852
+    second: Flying sprite sheet_328
+  - first:
+      213: -1163655916091282434
+    second: Flying sprite sheet_329
+  - first:
+      213: 3138894706162780537
+    second: Flying sprite sheet_330
+  - first:
+      213: -8256610503154722002
+    second: Flying sprite sheet_331
+  - first:
+      213: 821276651524856974
+    second: Flying sprite sheet_332
+  - first:
+      213: -3409088633707095451
+    second: Flying sprite sheet_333
+  - first:
+      213: 5613115949159863488
+    second: Flying sprite sheet_334
+  - first:
+      213: -5723096448827808779
+    second: Flying sprite sheet_335
+  - first:
+      213: -459916864058757491
+    second: Flying sprite sheet_336
+  - first:
+      213: -9096610055285540354
+    second: Flying sprite sheet_337
+  - first:
+      213: 2075910521674053952
+    second: Flying sprite sheet_338
+  - first:
+      213: 6867918695364466940
+    second: Flying sprite sheet_339
+  - first:
+      213: -3364852626130602424
+    second: Flying sprite sheet_340
+  - first:
+      213: -2193022154658678356
+    second: Flying sprite sheet_341
+  - first:
+      213: -1499005827198844227
+    second: Flying sprite sheet_342
+  - first:
+      213: 2693679030400832709
+    second: Flying sprite sheet_343
+  - first:
+      213: -3440095433761874029
+    second: Flying sprite sheet_344
+  - first:
+      213: 9116629386123562492
+    second: Flying sprite sheet_345
+  - first:
+      213: 943381861805246366
+    second: Flying sprite sheet_346
+  - first:
+      213: 2527838899245583348
+    second: Flying sprite sheet_347
+  - first:
+      213: 6354767790074466845
+    second: Flying sprite sheet_348
+  - first:
+      213: -4185316149842816009
+    second: Flying sprite sheet_349
+  - first:
+      213: -6587208989978959611
+    second: Flying sprite sheet_350
+  - first:
+      213: 5318189977946630767
+    second: Flying sprite sheet_351
+  - first:
+      213: -4184411843715470805
+    second: Flying sprite sheet_352
+  - first:
+      213: 5317546904599101253
+    second: Flying sprite sheet_353
+  - first:
+      213: -4296559499032797010
+    second: Flying sprite sheet_354
+  - first:
+      213: -6128189279216253665
+    second: Flying sprite sheet_355
+  - first:
+      213: -3663054895776482468
+    second: Flying sprite sheet_356
+  - first:
+      213: 5017507396441517483
+    second: Flying sprite sheet_357
+  - first:
+      213: 1210200230727942775
+    second: Flying sprite sheet_358
+  - first:
+      213: 8304686431488581222
+    second: Flying sprite sheet_359
+  - first:
+      213: 2926184482771408597
+    second: Flying sprite sheet_360
+  - first:
+      213: -4867400325277863866
+    second: Flying sprite sheet_361
+  - first:
+      213: 4073691729846904071
+    second: Flying sprite sheet_362
+  - first:
+      213: -8558053830598607111
+    second: Flying sprite sheet_363
+  - first:
+      213: 3039583946675155088
+    second: Flying sprite sheet_364
+  - first:
+      213: 1441879449761734798
+    second: Flying sprite sheet_365
+  - first:
+      213: -5494614443280962097
+    second: Flying sprite sheet_366
+  - first:
+      213: -3294986974363180482
+    second: Flying sprite sheet_367
+  - first:
+      213: 4326069941249829275
+    second: Flying sprite sheet_368
+  - first:
+      213: 370653819998119648
+    second: Flying sprite sheet_369
+  - first:
+      213: 6464768280594015378
+    second: Flying sprite sheet_370
+  - first:
+      213: 6851161319355761405
+    second: Flying sprite sheet_371
+  - first:
+      213: -262608502825938578
+    second: Flying sprite sheet_372
+  - first:
+      213: -7054662095926387870
+    second: Flying sprite sheet_373
+  - first:
+      213: -2308194870873841496
+    second: Flying sprite sheet_374
+  - first:
+      213: -6668475181405904323
+    second: Flying sprite sheet_375
+  - first:
+      213: 6649622651098603259
+    second: Flying sprite sheet_376
+  - first:
+      213: -5673857958288199820
+    second: Flying sprite sheet_377
+  - first:
+      213: -5874970599845207172
+    second: Flying sprite sheet_378
+  - first:
+      213: -1285222956821818598
+    second: Flying sprite sheet_379
+  - first:
+      213: 1183274159243668509
+    second: Flying sprite sheet_380
+  - first:
+      213: -5411543724637331101
+    second: Flying sprite sheet_381
+  - first:
+      213: 5098165474785605549
+    second: Flying sprite sheet_382
+  - first:
+      213: 2068964460504035382
+    second: Flying sprite sheet_383
+  - first:
+      213: 949714343879282652
+    second: Flying sprite sheet_384
+  - first:
+      213: -2581803443213683884
+    second: Flying sprite sheet_385
+  - first:
+      213: -6836488670541509520
+    second: Flying sprite sheet_386
+  - first:
+      213: 8468839242374871041
+    second: Flying sprite sheet_387
+  - first:
+      213: -615959438722181673
+    second: Flying sprite sheet_388
+  - first:
+      213: 5313926200721288791
+    second: Flying sprite sheet_389
+  - first:
+      213: 5172144616763906540
+    second: Flying sprite sheet_390
+  - first:
+      213: 6953307341103144270
+    second: Flying sprite sheet_391
+  - first:
+      213: -2168418889239618614
+    second: Flying sprite sheet_392
+  - first:
+      213: -5874681691389313740
+    second: Flying sprite sheet_393
+  - first:
+      213: 298581843931608099
+    second: Flying sprite sheet_394
+  - first:
+      213: 2396994775239902488
+    second: Flying sprite sheet_395
+  - first:
+      213: 3617810829876559123
+    second: Flying sprite sheet_396
+  - first:
+      213: -5514637401663495919
+    second: Flying sprite sheet_397
+  - first:
+      213: 75250979472983882
+    second: Flying sprite sheet_398
+  - first:
+      213: 4167585310999234015
+    second: Flying sprite sheet_399
+  - first:
+      213: -7991311299135860580
+    second: Flying sprite sheet_400
+  - first:
+      213: 5476331099486858218
+    second: Flying sprite sheet_401
+  - first:
+      213: -953522123957925592
+    second: Flying sprite sheet_402
+  - first:
+      213: -2777720438584202551
+    second: Flying sprite sheet_403
+  - first:
+      213: 8416740990942068111
+    second: Flying sprite sheet_404
+  - first:
+      213: -8041612815425333047
+    second: Flying sprite sheet_405
+  - first:
+      213: 3697050860296679446
+    second: Flying sprite sheet_406
+  - first:
+      213: 1543689265931496243
+    second: Flying sprite sheet_407
+  - first:
+      213: -1859823164303939976
+    second: Flying sprite sheet_408
+  - first:
+      213: -8239560187735777560
+    second: Flying sprite sheet_409
+  - first:
+      213: 8601670588862790383
+    second: Flying sprite sheet_410
+  - first:
+      213: -1672122097124307591
+    second: Flying sprite sheet_411
+  - first:
+      213: 4130628701205695776
+    second: Flying sprite sheet_412
+  - first:
+      213: -2910660062258915546
+    second: Flying sprite sheet_413
+  - first:
+      213: 1726650046575909409
+    second: Flying sprite sheet_414
+  - first:
+      213: -7599412879167416692
+    second: Flying sprite sheet_415
+  - first:
+      213: -295140175315747710
+    second: Flying sprite sheet_416
+  - first:
+      213: -5770710392904960101
+    second: Flying sprite sheet_417
+  - first:
+      213: -8151395646842819531
+    second: Flying sprite sheet_418
+  - first:
+      213: 1839574940251174031
+    second: Flying sprite sheet_419
+  - first:
+      213: 3659130877256788829
+    second: Flying sprite sheet_420
+  - first:
+      213: 811424604357362004
+    second: Flying sprite sheet_421
+  - first:
+      213: -3169418700125607797
+    second: Flying sprite sheet_422
+  - first:
+      213: -9173529621140884514
+    second: Flying sprite sheet_423
+  - first:
+      213: -6091898393948223004
+    second: Flying sprite sheet_424
+  - first:
+      213: 6531553021326645492
+    second: Flying sprite sheet_425
+  - first:
+      213: 4416526085726959768
+    second: Flying sprite sheet_426
+  - first:
+      213: 111365096721951159
+    second: Flying sprite sheet_427
+  - first:
+      213: 6874587202535415913
+    second: Flying sprite sheet_428
+  - first:
+      213: -6647461545854744962
+    second: Flying sprite sheet_429
+  - first:
+      213: -5232681402047313093
+    second: Flying sprite sheet_430
+  - first:
+      213: 7562760238899976168
+    second: Flying sprite sheet_431
+  - first:
+      213: -475443392787368314
+    second: Flying sprite sheet_432
+  - first:
+      213: -9021470141999604170
+    second: Flying sprite sheet_433
+  - first:
+      213: -409313035238694937
+    second: Flying sprite sheet_434
+  - first:
+      213: 4416786861000680369
+    second: Flying sprite sheet_435
+  - first:
+      213: -8539275228874340573
+    second: Flying sprite sheet_436
+  - first:
+      213: 5391822110971731942
+    second: Flying sprite sheet_437
+  - first:
+      213: 8673314475336764453
+    second: Flying sprite sheet_438
+  - first:
+      213: 4522051499390577777
+    second: Flying sprite sheet_439
+  - first:
+      213: 145610760174514911
+    second: Flying sprite sheet_440
+  - first:
+      213: 8468310649155721344
+    second: Flying sprite sheet_441
+  - first:
+      213: 7817045948041417590
+    second: Flying sprite sheet_442
+  - first:
+      213: 1569207918088798318
+    second: Flying sprite sheet_443
+  - first:
+      213: -4747771661694213289
+    second: Flying sprite sheet_444
+  - first:
+      213: -8215047129573988940
+    second: Flying sprite sheet_445
+  - first:
+      213: 5876001486478593456
+    second: Flying sprite sheet_446
+  - first:
+      213: -8647252674779513379
+    second: Flying sprite sheet_447
+  - first:
+      213: -6024055442630810039
+    second: Flying sprite sheet_448
+  - first:
+      213: -5485620983141925528
+    second: Flying sprite sheet_449
+  - first:
+      213: 509251551788780463
+    second: Flying sprite sheet_450
+  - first:
+      213: -3667520066603384028
+    second: Flying sprite sheet_451
+  - first:
+      213: -2550376619690767367
+    second: Flying sprite sheet_452
+  - first:
+      213: -897481460016169211
+    second: Flying sprite sheet_453
+  - first:
+      213: 3956642843283266462
+    second: Flying sprite sheet_454
+  - first:
+      213: -1417351285338432131
+    second: Flying sprite sheet_455
+  - first:
+      213: 5486824534972416819
+    second: Flying sprite sheet_456
+  - first:
+      213: 6720062968375099694
+    second: Flying sprite sheet_457
+  - first:
+      213: -3111861575313120747
+    second: Flying sprite sheet_458
+  - first:
+      213: -4139034497880371128
+    second: Flying sprite sheet_459
+  - first:
+      213: 7124839111160435231
+    second: Flying sprite sheet_460
+  - first:
+      213: -2993103028398240687
+    second: Flying sprite sheet_461
+  - first:
+      213: 691263200655114144
+    second: Flying sprite sheet_462
+  - first:
+      213: 7460138152844137057
+    second: Flying sprite sheet_463
+  - first:
+      213: 171987380598793329
+    second: Flying sprite sheet_464
+  - first:
+      213: -290716423551547521
+    second: Flying sprite sheet_465
+  - first:
+      213: 192023709105828765
+    second: Flying sprite sheet_466
+  - first:
+      213: 5243300341372195572
+    second: Flying sprite sheet_467
+  - first:
+      213: -4672529011345862282
+    second: Flying sprite sheet_468
+  - first:
+      213: 330819767109850301
+    second: Flying sprite sheet_469
+  - first:
+      213: 1244650922519488430
+    second: Flying sprite sheet_470
+  - first:
+      213: 6077408851550925810
+    second: Flying sprite sheet_471
+  - first:
+      213: -7392200449530378828
+    second: Flying sprite sheet_472
+  - first:
+      213: -7852036735810158317
+    second: Flying sprite sheet_473
+  - first:
+      213: -8330930604367147956
+    second: Flying sprite sheet_474
+  - first:
+      213: -3433072257248762982
+    second: Flying sprite sheet_475
+  - first:
+      213: 3044533086908078922
+    second: Flying sprite sheet_476
+  - first:
+      213: -4583231941028765079
+    second: Flying sprite sheet_477
+  - first:
+      213: 1477115414016607396
+    second: Flying sprite sheet_478
+  - first:
+      213: 8887506263255552958
+    second: Flying sprite sheet_479
+  - first:
+      213: -2738251001222334000
+    second: Flying sprite sheet_480
+  - first:
+      213: -1604829640598139673
+    second: Flying sprite sheet_481
+  - first:
+      213: -8217366304548321519
+    second: Flying sprite sheet_482
+  - first:
+      213: 5757578755982228906
+    second: Flying sprite sheet_483
+  - first:
+      213: -5594199837401871242
+    second: Flying sprite sheet_484
+  - first:
+      213: -821780409877564980
+    second: Flying sprite sheet_485
+  - first:
+      213: 2525963395144313268
+    second: Flying sprite sheet_486
+  - first:
+      213: -5998097425976104665
+    second: Flying sprite sheet_487
+  - first:
+      213: 7047875425155001953
+    second: Flying sprite sheet_488
+  - first:
+      213: -9214072869678644989
+    second: Flying sprite sheet_489
+  - first:
+      213: -7286568548754748134
+    second: Flying sprite sheet_490
+  - first:
+      213: -1443337698268843225
+    second: Flying sprite sheet_491
+  - first:
+      213: 6876716277260476775
+    second: Flying sprite sheet_492
+  - first:
+      213: -2417310508481505842
+    second: Flying sprite sheet_493
+  - first:
+      213: -7411378839868882510
+    second: Flying sprite sheet_494
+  - first:
+      213: -2259523320234139288
+    second: Flying sprite sheet_495
+  - first:
+      213: -4865389903679714750
+    second: Flying sprite sheet_496
+  - first:
+      213: 4245348132471678693
+    second: Flying sprite sheet_497
+  - first:
+      213: -7405109754521892603
+    second: Flying sprite sheet_498
+  - first:
+      213: -223235056630937269
+    second: Flying sprite sheet_499
+  - first:
+      213: -4141335795244336801
+    second: Flying sprite sheet_500
+  - first:
+      213: 8159685664147909106
+    second: Flying sprite sheet_501
+  - first:
+      213: 8750907816095660005
+    second: Flying sprite sheet_502
+  - first:
+      213: -4281175762306871526
+    second: Flying sprite sheet_503
+  - first:
+      213: -3803943994766537628
+    second: Flying sprite sheet_504
+  - first:
+      213: -3935514160292086943
+    second: Flying sprite sheet_505
+  - first:
+      213: 5839558652698567843
+    second: Flying sprite sheet_506
+  - first:
+      213: 7860203435156296332
+    second: Flying sprite sheet_507
+  - first:
+      213: -6855279788741993077
+    second: Flying sprite sheet_508
+  - first:
+      213: -1373588705351476706
+    second: Flying sprite sheet_509
+  - first:
+      213: -5199521455434859466
+    second: Flying sprite sheet_510
+  - first:
+      213: 5961854359884466605
+    second: Flying sprite sheet_511
+  - first:
+      213: 5767331707069726909
+    second: Flying sprite sheet_512
+  - first:
+      213: -5197025460967524796
+    second: Flying sprite sheet_513
+  - first:
+      213: 8404265072027669690
+    second: Flying sprite sheet_514
+  - first:
+      213: -8677528975613170108
+    second: Flying sprite sheet_515
+  - first:
+      213: -6072913524149655703
+    second: Flying sprite sheet_516
+  - first:
+      213: -5092631370992034505
+    second: Flying sprite sheet_517
+  - first:
+      213: -8686023600066624774
+    second: Flying sprite sheet_518
+  - first:
+      213: -3375703239563167555
+    second: Flying sprite sheet_519
+  - first:
+      213: 7052314834001667106
+    second: Flying sprite sheet_520
+  - first:
+      213: -4308515119264460299
+    second: Flying sprite sheet_521
+  - first:
+      213: -6461792919898629142
+    second: Flying sprite sheet_522
+  - first:
+      213: 5969170281670977178
+    second: Flying sprite sheet_523
+  - first:
+      213: -6630279398245836522
+    second: Flying sprite sheet_524
+  - first:
+      213: -7292942140300101579
+    second: Flying sprite sheet_525
+  - first:
+      213: -6036869567267555941
+    second: Flying sprite sheet_526
+  - first:
+      213: 3413545688737768173
+    second: Flying sprite sheet_527
+  - first:
+      213: 6819899633704536937
+    second: Flying sprite sheet_528
+  - first:
+      213: 7696924504706798179
+    second: Flying sprite sheet_529
+  - first:
+      213: 1517694928803895661
+    second: Flying sprite sheet_530
+  - first:
+      213: 2202616069208002019
+    second: Flying sprite sheet_531
+  - first:
+      213: -2631898297755747809
+    second: Flying sprite sheet_532
+  - first:
+      213: 8194173569426702552
+    second: Flying sprite sheet_533
+  - first:
+      213: -1706367256659242206
+    second: Flying sprite sheet_534
+  - first:
+      213: -1825645726706538937
+    second: Flying sprite sheet_535
+  - first:
+      213: 8594445680934008111
+    second: Flying sprite sheet_536
+  - first:
+      213: 3295258897266219217
+    second: Flying sprite sheet_537
+  - first:
+      213: 508722952732336747
+    second: Flying sprite sheet_538
+  - first:
+      213: -5900274059771966524
+    second: Flying sprite sheet_539
+  - first:
+      213: 4660652917051959224
+    second: Flying sprite sheet_540
+  - first:
+      213: -410656209528243113
+    second: Flying sprite sheet_541
+  - first:
+      213: 5659568693164173246
+    second: Flying sprite sheet_542
+  - first:
+      213: 428866451225656051
+    second: Flying sprite sheet_543
+  - first:
+      213: -3621632011279850573
+    second: Flying sprite sheet_544
+  - first:
+      213: -912259217875797512
+    second: Flying sprite sheet_545
+  - first:
+      213: -202568245520081297
+    second: Flying sprite sheet_546
+  - first:
+      213: -8520404891572294282
+    second: Flying sprite sheet_547
+  - first:
+      213: -8482359409842470482
+    second: Flying sprite sheet_548
+  - first:
+      213: -2378187832462792535
+    second: Flying sprite sheet_549
+  - first:
+      213: 4841314975629900886
+    second: Flying sprite sheet_550
+  - first:
+      213: -5448575484228139759
+    second: Flying sprite sheet_551
+  - first:
+      213: -7747413848880835574
+    second: Flying sprite sheet_552
+  - first:
+      213: -2213889726826740226
+    second: Flying sprite sheet_553
+  - first:
+      213: 1940351887090662808
+    second: Flying sprite sheet_554
+  - first:
+      213: -1359621490803527857
+    second: Flying sprite sheet_555
+  - first:
+      213: 8585452916985842907
+    second: Flying sprite sheet_556
+  - first:
+      213: 5494915294842555624
+    second: Flying sprite sheet_557
+  - first:
+      213: 6405819232207285711
+    second: Flying sprite sheet_558
+  - first:
+      213: 8955870068331241739
+    second: Flying sprite sheet_559
+  - first:
+      213: -2836347198230632742
+    second: Flying sprite sheet_560
+  - first:
+      213: -2641324284370773516
+    second: Flying sprite sheet_561
+  - first:
+      213: 7806801648492476222
+    second: Flying sprite sheet_562
+  - first:
+      213: -2351989918347631648
+    second: Flying sprite sheet_563
+  - first:
+      213: -2612730594671065771
+    second: Flying sprite sheet_564
+  - first:
+      213: -246459541540119333
+    second: Flying sprite sheet_565
+  - first:
+      213: -9056099654728011459
+    second: Flying sprite sheet_566
+  - first:
+      213: -7732114910475524955
+    second: Flying sprite sheet_567
+  - first:
+      213: -4110165757464155351
+    second: Flying sprite sheet_568
+  - first:
+      213: -3117595705305910305
+    second: Flying sprite sheet_569
+  - first:
+      213: -8814315749820558288
+    second: Flying sprite sheet_570
+  - first:
+      213: 8755130922683399306
+    second: Flying sprite sheet_571
+  - first:
+      213: 1104594630148757171
+    second: Flying sprite sheet_572
+  - first:
+      213: 7457844198322687181
+    second: Flying sprite sheet_573
+  - first:
+      213: 2456379236589688998
+    second: Flying sprite sheet_574
+  - first:
+      213: -5045404763748578112
+    second: Flying sprite sheet_575
+  - first:
+      213: -8399028221366525587
+    second: Flying sprite sheet_576
+  - first:
+      213: 3340623233095917033
+    second: Flying sprite sheet_577
+  - first:
+      213: 775135849786239221
+    second: Flying sprite sheet_578
+  - first:
+      213: -6463149425320923777
+    second: Flying sprite sheet_579
+  - first:
+      213: -7218313509846165938
+    second: Flying sprite sheet_580
+  - first:
+      213: -9067705971232210503
+    second: Flying sprite sheet_581
+  - first:
+      213: 2254811408327415579
+    second: Flying sprite sheet_582
+  - first:
+      213: -9011685843983060564
+    second: Flying sprite sheet_583
+  - first:
+      213: 2565530778123225694
+    second: Flying sprite sheet_584
+  - first:
+      213: -8122798691155748430
+    second: Flying sprite sheet_585
+  - first:
+      213: -4933542545063107549
+    second: Flying sprite sheet_586
+  - first:
+      213: -1911942058025280901
+    second: Flying sprite sheet_587
+  - first:
+      213: -427082285710868767
+    second: Flying sprite sheet_588
+  - first:
+      213: -2138735429466213579
+    second: Flying sprite sheet_589
+  - first:
+      213: 5309875975496242959
+    second: Flying sprite sheet_590
+  - first:
+      213: -4704901323454093505
+    second: Flying sprite sheet_591
+  - first:
+      213: -5530264902630247496
+    second: Flying sprite sheet_592
+  - first:
+      213: -706864478099303820
+    second: Flying sprite sheet_593
+  - first:
+      213: -5094426366165783039
+    second: Flying sprite sheet_594
+  - first:
+      213: -4485487917673489750
+    second: Flying sprite sheet_595
+  - first:
+      213: -8178769986143535814
+    second: Flying sprite sheet_596
+  - first:
+      213: -2231128774517794908
+    second: Flying sprite sheet_597
+  - first:
+      213: 6835903233303847911
+    second: Flying sprite sheet_598
+  - first:
+      213: 5069115701462306306
+    second: Flying sprite sheet_599
+  - first:
+      213: -4427713838038366597
+    second: Flying sprite sheet_600
+  - first:
+      213: -3036375118928632720
+    second: Flying sprite sheet_601
+  - first:
+      213: -8619265120060700565
+    second: Flying sprite sheet_602
+  - first:
+      213: -994623297315047225
+    second: Flying sprite sheet_603
+  - first:
+      213: -3262423850618110081
+    second: Flying sprite sheet_604
+  - first:
+      213: -7396569052647667674
+    second: Flying sprite sheet_605
+  - first:
+      213: 2767933343456455822
+    second: Flying sprite sheet_606
+  - first:
+      213: -3449441109384890564
+    second: Flying sprite sheet_607
+  - first:
+      213: -9099571586591799434
+    second: Flying sprite sheet_608
+  - first:
+      213: -8183843430276917069
+    second: Flying sprite sheet_609
+  - first:
+      213: -8158712525357909772
+    second: Flying sprite sheet_610
+  - first:
+      213: -202366511704564463
+    second: Flying sprite sheet_611
+  - first:
+      213: -8486398876723407514
+    second: Flying sprite sheet_612
+  - first:
+      213: 4401123030480037440
+    second: Flying sprite sheet_613
+  - first:
+      213: 71604741337835106
+    second: Flying sprite sheet_614
+  - first:
+      213: -4925247038863889424
+    second: Flying sprite sheet_615
+  - first:
+      213: 3241655718439229579
+    second: Flying sprite sheet_616
+  - first:
+      213: 5183103784725511804
+    second: Flying sprite sheet_617
+  - first:
+      213: 2831441586227769517
+    second: Flying sprite sheet_618
+  - first:
+      213: -8914821682349210898
+    second: Flying sprite sheet_619
+  - first:
+      213: 7366429240052475912
+    second: Flying sprite sheet_620
+  - first:
+      213: 6031814795220583225
+    second: Flying sprite sheet_621
+  - first:
+      213: -6155063929621000413
+    second: Flying sprite sheet_622
+  - first:
+      213: 5363233090963009949
+    second: Flying sprite sheet_623
+  - first:
+      213: 1251774824050064850
+    second: Flying sprite sheet_624
+  - first:
+      213: 4485600118260510436
+    second: Flying sprite sheet_625
+  - first:
+      213: -3692424150543806361
+    second: Flying sprite sheet_626
+  - first:
+      213: 5142312586288066656
+    second: Flying sprite sheet_627
+  - first:
+      213: -5324454752338956415
+    second: Flying sprite sheet_628
+  - first:
+      213: 3470048636692857906
+    second: Flying sprite sheet_629
+  - first:
+      213: -1976305756120023885
+    second: Flying sprite sheet_630
+  - first:
+      213: 8976112812228425084
+    second: Flying sprite sheet_631
+  - first:
+      213: -9126242443460047815
+    second: Flying sprite sheet_632
+  - first:
+      213: 1155485348291502213
+    second: Flying sprite sheet_633
+  - first:
+      213: 5012495552342977196
+    second: Flying sprite sheet_634
+  - first:
+      213: -7222954510266175819
+    second: Flying sprite sheet_635
+  - first:
+      213: -4421455905960987602
+    second: Flying sprite sheet_636
+  - first:
+      213: 3311467706491011460
+    second: Flying sprite sheet_637
+  - first:
+      213: 130659027334773350
+    second: Flying sprite sheet_638
+  - first:
+      213: 585240261401334454
+    second: Flying sprite sheet_639
+  - first:
+      213: 2816901971271533779
+    second: Flying sprite sheet_640
+  - first:
+      213: -8196566558804675553
+    second: Flying sprite sheet_641
+  - first:
+      213: 8414067876608469033
+    second: Flying sprite sheet_642
+  - first:
+      213: 6771231510395589115
+    second: Flying sprite sheet_643
+  - first:
+      213: 3131217059299259643
+    second: Flying sprite sheet_644
+  - first:
+      213: -4129689345979496919
+    second: Flying sprite sheet_645
+  - first:
+      213: -7756120353919281211
+    second: Flying sprite sheet_646
+  - first:
+      213: -6789521939712110729
+    second: Flying sprite sheet_647
+  - first:
+      213: -6408460071252854112
+    second: Flying sprite sheet_648
+  - first:
+      213: -5687523284976795009
+    second: Flying sprite sheet_649
+  - first:
+      213: -4948530984576069546
+    second: Flying sprite sheet_650
+  - first:
+      213: -2858304659183139574
+    second: Flying sprite sheet_651
+  - first:
+      213: -8978745545280580443
+    second: Flying sprite sheet_652
+  - first:
+      213: 8714436971728563785
+    second: Flying sprite sheet_653
+  - first:
+      213: 2507328076395401234
+    second: Flying sprite sheet_654
+  - first:
+      213: -4025666359022228848
+    second: Flying sprite sheet_655
+  - first:
+      213: -5801877615768990360
+    second: Flying sprite sheet_656
+  - first:
+      213: 4722789163625190867
+    second: Flying sprite sheet_657
+  - first:
+      213: 3634696083991111294
+    second: Flying sprite sheet_658
+  - first:
+      213: 5928391153886261302
+    second: Flying sprite sheet_659
+  - first:
+      213: 3186626156700957484
+    second: Flying sprite sheet_660
+  - first:
+      213: -170348627416240560
+    second: Flying sprite sheet_661
+  - first:
+      213: -3507025370371999721
+    second: Flying sprite sheet_662
+  - first:
+      213: -3969459341858409667
+    second: Flying sprite sheet_663
+  - first:
+      213: -9005112062056262273
+    second: Flying sprite sheet_664
+  - first:
+      213: 7235528945975416463
+    second: Flying sprite sheet_665
+  - first:
+      213: 3252498021493890773
+    second: Flying sprite sheet_666
+  - first:
+      213: 8521841050571902236
+    second: Flying sprite sheet_667
+  - first:
+      213: -4870169018527365240
+    second: Flying sprite sheet_668
+  - first:
+      213: -8662160032386432679
+    second: Flying sprite sheet_669
+  - first:
+      213: -562491251362633152
+    second: Flying sprite sheet_670
+  - first:
+      213: -1481172296117733445
+    second: Flying sprite sheet_671
+  - first:
+      213: 5451474124596425867
+    second: Flying sprite sheet_672
+  - first:
+      213: 1230049591917401082
+    second: Flying sprite sheet_673
+  - first:
+      213: 6596133193581704662
+    second: Flying sprite sheet_674
+  - first:
+      213: -4258396190218952021
+    second: Flying sprite sheet_675
+  - first:
+      213: 1469270361652878881
+    second: Flying sprite sheet_676
+  - first:
+      213: 5594388907278481755
+    second: Flying sprite sheet_677
+  - first:
+      213: -1102155218168767739
+    second: Flying sprite sheet_678
+  - first:
+      213: 2077362656617683535
+    second: Flying sprite sheet_679
+  - first:
+      213: 6753711478771006372
+    second: Flying sprite sheet_680
+  - first:
+      213: 2798380686548672514
+    second: Flying sprite sheet_681
+  - first:
+      213: 5448190141667687398
+    second: Flying sprite sheet_682
+  - first:
+      213: 5858042147448260939
+    second: Flying sprite sheet_683
+  - first:
+      213: -2515669282474299133
+    second: Flying sprite sheet_684
+  - first:
+      213: 1752898448433372876
+    second: Flying sprite sheet_685
+  - first:
+      213: -625247846775776938
+    second: Flying sprite sheet_686
+  - first:
+      213: 8046583797885381743
+    second: Flying sprite sheet_687
+  - first:
+      213: 2286746214919365930
+    second: Flying sprite sheet_688
+  - first:
+      213: 5645174782158710887
+    second: Flying sprite sheet_689
+  - first:
+      213: -4674374370361874867
+    second: Flying sprite sheet_690
+  - first:
+      213: -4396020678919678401
+    second: Flying sprite sheet_691
+  - first:
+      213: 1626467736276185502
+    second: Flying sprite sheet_692
+  - first:
+      213: 519907425926186411
+    second: Flying sprite sheet_693
+  - first:
+      213: -5215849004820847033
+    second: Flying sprite sheet_694
+  - first:
+      213: 7968837565496423749
+    second: Flying sprite sheet_695
+  - first:
+      213: 2435014830818620792
+    second: Flying sprite sheet_696
+  - first:
+      213: -8258345037070626294
+    second: Flying sprite sheet_697
+  - first:
+      213: 8461485903284802181
+    second: Flying sprite sheet_698
+  - first:
+      213: 3589832008839078139
+    second: Flying sprite sheet_699
+  - first:
+      213: -7274909946309040120
+    second: Flying sprite sheet_700
+  - first:
+      213: 4383376947902259316
+    second: Flying sprite sheet_701
+  - first:
+      213: -6691525114927541691
+    second: Flying sprite sheet_702
+  - first:
+      213: -1300434053483244777
+    second: Flying sprite sheet_703
+  - first:
+      213: -2702745281200228955
+    second: Flying sprite sheet_704
+  - first:
+      213: -6706147757834747839
+    second: Flying sprite sheet_705
+  - first:
+      213: 3167251560257590624
+    second: Flying sprite sheet_706
+  - first:
+      213: 6457464800050804552
+    second: Flying sprite sheet_707
+  - first:
+      213: 7232718923889377789
+    second: Flying sprite sheet_708
+  - first:
+      213: 1068911615512871799
+    second: Flying sprite sheet_709
+  - first:
+      213: 3682665355667865838
+    second: Flying sprite sheet_710
+  - first:
+      213: 5507987224072493706
+    second: Flying sprite sheet_711
+  - first:
+      213: 6919868383212087475
+    second: Flying sprite sheet_712
+  - first:
+      213: -7919207869211187260
+    second: Flying sprite sheet_713
+  - first:
+      213: -8156748202551188329
+    second: Flying sprite sheet_714
+  - first:
+      213: -1360791418487385698
+    second: Flying sprite sheet_715
+  - first:
+      213: -5134679363221935382
+    second: Flying sprite sheet_716
+  - first:
+      213: -887617058248749195
+    second: Flying sprite sheet_717
+  - first:
+      213: 4788720543169318700
+    second: Flying sprite sheet_718
+  - first:
+      213: -5144274525414897846
+    second: Flying sprite sheet_719
+  - first:
+      213: -4725269404619098934
+    second: Flying sprite sheet_720
+  - first:
+      213: 5507984242322966751
+    second: Flying sprite sheet_721
+  - first:
+      213: 1010249264135669396
+    second: Flying sprite sheet_722
+  - first:
+      213: -8494098345478471305
+    second: Flying sprite sheet_723
+  - first:
+      213: 3097540097699774659
+    second: Flying sprite sheet_724
+  - first:
+      213: 8867911733291400018
+    second: Flying sprite sheet_725
+  - first:
+      213: -3533626231396515354
+    second: Flying sprite sheet_726
+  - first:
+      213: -4643841706536340394
+    second: Flying sprite sheet_727
+  - first:
+      213: 8661393082653369490
+    second: Flying sprite sheet_728
+  - first:
+      213: 1058022696088422832
+    second: Flying sprite sheet_729
+  - first:
+      213: 3506471454505816187
+    second: Flying sprite sheet_730
+  - first:
+      213: 805186882924158593
+    second: Flying sprite sheet_731
+  - first:
+      213: -4176310155301494166
+    second: Flying sprite sheet_732
+  - first:
+      213: 4830220387736277389
+    second: Flying sprite sheet_733
+  - first:
+      213: 3083969005713628615
+    second: Flying sprite sheet_734
+  - first:
+      213: 8702931311227135532
+    second: Flying sprite sheet_735
+  - first:
+      213: -3453503548710402986
+    second: Flying sprite sheet_736
+  - first:
+      213: 7891773123023553082
+    second: Flying sprite sheet_737
+  - first:
+      213: 4236660531730167814
+    second: Flying sprite sheet_738
+  - first:
+      213: -6092089204892240796
+    second: Flying sprite sheet_739
+  - first:
+      213: 368187019929003286
+    second: Flying sprite sheet_740
+  - first:
+      213: 8188018645340708284
+    second: Flying sprite sheet_741
+  - first:
+      213: -4486000282922178168
+    second: Flying sprite sheet_742
+  - first:
+      213: -5139674770763362167
+    second: Flying sprite sheet_743
+  - first:
+      213: -9005592183890711958
+    second: Flying sprite sheet_744
+  - first:
+      213: 860400993244478453
+    second: Flying sprite sheet_745
+  - first:
+      213: -4056114575157777524
+    second: Flying sprite sheet_746
+  - first:
+      213: -3644552636388510963
+    second: Flying sprite sheet_747
+  - first:
+      213: 7791898933871285113
+    second: Flying sprite sheet_748
+  - first:
+      213: -8901581987017582503
+    second: Flying sprite sheet_749
+  - first:
+      213: -4688399442168867385
+    second: Flying sprite sheet_750
+  - first:
+      213: -8111851583077328489
+    second: Flying sprite sheet_751
+  - first:
+      213: 6065777485317661140
+    second: Flying sprite sheet_752
+  - first:
+      213: 1859915654456928557
+    second: Flying sprite sheet_753
+  - first:
+      213: -1743987967729066846
+    second: Flying sprite sheet_754
+  - first:
+      213: 2284162260298416291
+    second: Flying sprite sheet_755
+  - first:
+      213: 6523980252373103870
+    second: Flying sprite sheet_756
+  - first:
+      213: -6966321997715507808
+    second: Flying sprite sheet_757
+  - first:
+      213: 3520126679785581407
+    second: Flying sprite sheet_758
+  - first:
+      213: -6030968739451415558
+    second: Flying sprite sheet_759
+  - first:
+      213: 8993296358535895590
+    second: Flying sprite sheet_760
+  - first:
+      213: -1840092114168019192
+    second: Flying sprite sheet_761
+  - first:
+      213: 4009222911951454679
+    second: Flying sprite sheet_762
+  - first:
+      213: -2456336082051639968
+    second: Flying sprite sheet_763
+  - first:
+      213: -8144844902623989287
+    second: Flying sprite sheet_764
+  - first:
+      213: 8078990706800025908
+    second: Flying sprite sheet_765
+  - first:
+      213: -4093565146430732162
+    second: Flying sprite sheet_766
+  - first:
+      213: -6088263529748845513
+    second: Flying sprite sheet_767
+  - first:
+      213: 4000645937220716737
+    second: Flying sprite sheet_768
+  - first:
+      213: -1384441246908840630
+    second: Flying sprite sheet_769
+  - first:
+      213: -4563866329695211936
+    second: Flying sprite sheet_770
+  - first:
+      213: -3346958930383317338
+    second: Flying sprite sheet_771
+  - first:
+      213: 2379576002743878612
+    second: Flying sprite sheet_772
+  - first:
+      213: 2718977352515990381
+    second: Flying sprite sheet_773
+  - first:
+      213: -2073500794190199143
+    second: Flying sprite sheet_774
+  - first:
+      213: -2940886006053809574
+    second: Flying sprite sheet_775
+  - first:
+      213: 3820347454651375736
+    second: Flying sprite sheet_776
+  - first:
+      213: -6228736598446670046
+    second: Flying sprite sheet_777
+  - first:
+      213: 7457763809298292889
+    second: Flying sprite sheet_778
+  - first:
+      213: 5166405330803065259
+    second: Flying sprite sheet_779
+  - first:
+      213: 5683371771431163431
+    second: Flying sprite sheet_780
+  - first:
+      213: -6459158359478059796
+    second: Flying sprite sheet_781
+  - first:
+      213: -5837692106242161799
+    second: Flying sprite sheet_782
+  - first:
+      213: 4765165578505993978
+    second: Flying sprite sheet_783
+  - first:
+      213: 7446131237176229620
+    second: Flying sprite sheet_784
+  - first:
+      213: -8810959175708391135
+    second: Flying sprite sheet_785
+  - first:
+      213: -8672931440962054884
+    second: Flying sprite sheet_786
+  - first:
+      213: -1107514768419897127
+    second: Flying sprite sheet_787
+  - first:
+      213: -1381889947147943417
+    second: Flying sprite sheet_788
+  - first:
+      213: -7194586715290024309
+    second: Flying sprite sheet_789
+  - first:
+      213: -7344513679912414044
+    second: Flying sprite sheet_790
+  - first:
+      213: 7337842442257750251
+    second: Flying sprite sheet_791
+  - first:
+      213: -7071068794538976813
+    second: Flying sprite sheet_792
+  - first:
+      213: -129863329689012317
+    second: Flying sprite sheet_793
+  - first:
+      213: -8693704977272821267
+    second: Flying sprite sheet_794
+  - first:
+      213: 8180119003655663267
+    second: Flying sprite sheet_795
+  - first:
+      213: -3540766469066943107
+    second: Flying sprite sheet_796
+  - first:
+      213: -9046849598539896806
+    second: Flying sprite sheet_797
+  - first:
+      213: -6277642550701481189
+    second: Flying sprite sheet_798
+  - first:
+      213: -2647198580763643551
+    second: Flying sprite sheet_799
+  - first:
+      213: 6538182644938423330
+    second: Flying sprite sheet_800
+  - first:
+      213: 2195279693683062570
+    second: Flying sprite sheet_801
+  - first:
+      213: 7998905220604957160
+    second: Flying sprite sheet_802
+  - first:
+      213: 2125532142895554011
+    second: Flying sprite sheet_803
+  - first:
+      213: -2129706968484490430
+    second: Flying sprite sheet_804
+  - first:
+      213: -8778728341854560496
+    second: Flying sprite sheet_805
+  - first:
+      213: 2017774338093467948
+    second: Flying sprite sheet_806
+  - first:
+      213: 1688768721751290397
+    second: Flying sprite sheet_807
+  - first:
+      213: -6299130666549232428
+    second: Flying sprite sheet_808
+  - first:
+      213: -4993255092327210954
+    second: Flying sprite sheet_809
+  - first:
+      213: 6022529367967255787
+    second: Flying sprite sheet_810
+  - first:
+      213: 5605437655058577595
+    second: Flying sprite sheet_811
+  - first:
+      213: 2618664975291168791
+    second: Flying sprite sheet_812
+  - first:
+      213: 8830012812658556985
+    second: Flying sprite sheet_813
+  - first:
+      213: 2757284587602394430
+    second: Flying sprite sheet_814
+  - first:
+      213: -6661064351704353253
+    second: Flying sprite sheet_815
+  - first:
+      213: -7866052605065121439
+    second: Flying sprite sheet_816
+  - first:
+      213: 4673412803902733133
+    second: Flying sprite sheet_817
+  - first:
+      213: -7737708249122981433
+    second: Flying sprite sheet_818
+  - first:
+      213: -4463565276569916682
+    second: Flying sprite sheet_819
+  - first:
+      213: -5003068934322264601
+    second: Flying sprite sheet_820
+  - first:
+      213: 8112621640170391984
+    second: Flying sprite sheet_821
+  - first:
+      213: 4993943870849697208
+    second: Flying sprite sheet_822
+  - first:
+      213: 454372558054516121
+    second: Flying sprite sheet_823
+  - first:
+      213: 5660739535725088425
+    second: Flying sprite sheet_824
+  - first:
+      213: -4405518215952082569
+    second: Flying sprite sheet_825
+  - first:
+      213: -8064411601811641302
+    second: Flying sprite sheet_826
+  - first:
+      213: -2742482307240262817
+    second: Flying sprite sheet_827
+  - first:
+      213: 7668979059898115677
+    second: Flying sprite sheet_828
+  - first:
+      213: -8690375065607336718
+    second: Flying sprite sheet_829
+  - first:
+      213: -7050843809801435615
+    second: Flying sprite sheet_830
+  - first:
+      213: 233829250364299891
+    second: Flying sprite sheet_831
+  - first:
+      213: 2844880066461560971
+    second: Flying sprite sheet_832
+  - first:
+      213: -8588422386676508239
+    second: Flying sprite sheet_833
+  - first:
+      213: 4369076067661726934
+    second: Flying sprite sheet_834
+  - first:
+      213: 9054917298193636191
+    second: Flying sprite sheet_835
+  - first:
+      213: 2757892308503787912
+    second: Flying sprite sheet_836
+  - first:
+      213: -3941580492321923842
+    second: Flying sprite sheet_837
+  - first:
+      213: 1331040156824310565
+    second: Flying sprite sheet_838
+  - first:
+      213: 2825343048520732711
+    second: Flying sprite sheet_839
+  - first:
+      213: -437444822249831321
+    second: Flying sprite sheet_840
+  - first:
+      213: 9220585097417663058
+    second: Flying sprite sheet_841
+  - first:
+      213: 1272405344705589566
+    second: Flying sprite sheet_842
+  - first:
+      213: 6519721486141957268
+    second: Flying sprite sheet_843
+  - first:
+      213: -156415840127514744
+    second: Flying sprite sheet_844
+  - first:
+      213: 2169935013683247022
+    second: Flying sprite sheet_845
+  - first:
+      213: -7970643649195148696
+    second: Flying sprite sheet_846
+  - first:
+      213: 604398653379595987
+    second: Flying sprite sheet_847
+  - first:
+      213: -6167790902564091001
+    second: Flying sprite sheet_848
+  - first:
+      213: -2049115657534738963
+    second: Flying sprite sheet_849
+  - first:
+      213: -2731410469036985330
+    second: Flying sprite sheet_850
+  - first:
+      213: 8373251081137234406
+    second: Flying sprite sheet_851
+  - first:
+      213: -5033944052995970108
+    second: Flying sprite sheet_852
+  - first:
+      213: -6345709035797017470
+    second: Flying sprite sheet_853
+  - first:
+      213: -2090523109346144393
+    second: Flying sprite sheet_854
+  - first:
+      213: 8275127489745114671
+    second: Flying sprite sheet_855
+  - first:
+      213: -3940340515241214599
+    second: Flying sprite sheet_856
+  - first:
+      213: -1677143178277787855
+    second: Flying sprite sheet_857
+  - first:
+      213: 5417272008385852653
+    second: Flying sprite sheet_858
+  - first:
+      213: 7782837040719779039
+    second: Flying sprite sheet_859
+  - first:
+      213: 1434114047990357470
+    second: Flying sprite sheet_860
+  - first:
+      213: 6167160708562966050
+    second: Flying sprite sheet_861
+  - first:
+      213: -7635816274724030233
+    second: Flying sprite sheet_862
+  - first:
+      213: -2842099236686744041
+    second: Flying sprite sheet_863
+  - first:
+      213: -5480985932128678044
+    second: Flying sprite sheet_864
+  - first:
+      213: 2057569781478296634
+    second: Flying sprite sheet_865
+  - first:
+      213: -2535520553104109719
+    second: Flying sprite sheet_866
+  - first:
+      213: 6382282676448102682
+    second: Flying sprite sheet_867
+  - first:
+      213: 2180422183996842221
+    second: Flying sprite sheet_868
+  - first:
+      213: 695073952299230486
+    second: Flying sprite sheet_869
+  - first:
+      213: 6527233316442089660
+    second: Flying sprite sheet_870
+  - first:
+      213: -1302780324105253278
+    second: Flying sprite sheet_871
+  - first:
+      213: 3239546766959065519
+    second: Flying sprite sheet_872
+  - first:
+      213: -5458725645594503842
+    second: Flying sprite sheet_873
+  - first:
+      213: -3891995991800702055
+    second: Flying sprite sheet_874
+  - first:
+      213: -5345817260630345198
+    second: Flying sprite sheet_875
+  - first:
+      213: -1309284586772828850
+    second: Flying sprite sheet_876
+  - first:
+      213: 8701333748530323766
+    second: Flying sprite sheet_877
+  - first:
+      213: 8947658252700601187
+    second: Flying sprite sheet_878
+  - first:
+      213: -8921778418783158927
+    second: Flying sprite sheet_879
+  - first:
+      213: -6447474655997542339
+    second: Flying sprite sheet_880
+  - first:
+      213: 3035446651936557718
+    second: Flying sprite sheet_881
+  - first:
+      213: 5610848696967086225
+    second: Flying sprite sheet_882
+  - first:
+      213: -4767218484046315824
+    second: Flying sprite sheet_883
+  - first:
+      213: -8056712723846130979
+    second: Flying sprite sheet_884
+  - first:
+      213: -8578565534715614830
+    second: Flying sprite sheet_885
+  - first:
+      213: 5949318861737403962
+    second: Flying sprite sheet_886
+  - first:
+      213: 2912052530134220600
+    second: Flying sprite sheet_887
+  - first:
+      213: 1890291802723428287
+    second: Flying sprite sheet_888
+  - first:
+      213: 8925865219309496866
+    second: Flying sprite sheet_889
+  - first:
+      213: 6086824055262961671
+    second: Flying sprite sheet_890
+  - first:
+      213: 8527065332902316018
+    second: Flying sprite sheet_891
+  - first:
+      213: -6353598429153506868
+    second: Flying sprite sheet_892
+  - first:
+      213: -7418204586260680345
+    second: Flying sprite sheet_893
+  - first:
+      213: 897880132299303774
+    second: Flying sprite sheet_894
+  - first:
+      213: 8114658192075888124
+    second: Flying sprite sheet_895
+  - first:
+      213: -59329927574586099
+    second: Flying sprite sheet_896
+  - first:
+      213: -6058410357653359935
+    second: Flying sprite sheet_897
+  - first:
+      213: -45272543893260762
+    second: Flying sprite sheet_898
+  - first:
+      213: 8997062271450456959
+    second: Flying sprite sheet_899
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +2768,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,10 +2790,46 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -75,7 +2838,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Flying sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 173
+        width: 900
+        height: 841
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7275c71744b551200800000000000000
+      internalID: 150126512106657575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 157
+        width: 878
+        height: 833
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c3091ce9daa0a90800000000000000
+      internalID: -7346868944737649656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 155
+        width: 1096
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9479ab3560887960800000000000000
+      internalID: 7599965543468725407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3606
+        y: 168
+        width: 1022
+        height: 807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c8e4ce4c796c3b0800000000000000
+      internalID: -5492535823497786247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 4803
+        y: 181
+        width: 920
+        height: 796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b837ffd3a733e60800000000000000
+      internalID: 7940824974681672460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 6206
+        y: 149
+        width: 645
+        height: 836
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e69b40076da59e10800000000000000
+      internalID: 2203858250565916388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 7379
+        y: 152
+        width: 699
+        height: 825
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f492e091987caae0800000000000000
+      internalID: -1536720806243822344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 8489
+        y: 189
+        width: 894
+        height: 780
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540e893425c2bec60800000000000000
+      internalID: 7848415507456254021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 9766
+        y: 164
+        width: 1033
+        height: 855
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06c85bd07d511080800000000000000
+      internalID: -9218484222952946166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
