@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
 
     public Collider2D PlayerCollider { get => playerCollider; }
 
-    private float jumpRotationTimer = 1f;
+    private float jumpRotationTimer = 1000f;
     private float myRotationValue = 0;
 
     private Animator animator;
@@ -103,10 +103,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Space) && isGrounded)
         {
-            rb.velocity = new Vector2(10f * FacingDirection, chargeValue * jumpForce); // execute jump
+            rb.velocity = new Vector2(2f * FacingDirection * chargeValue, chargeValue * jumpForce); // execute jump
             chargeValue = 0f; // reset charge
-            SoundManager.PlaySound("Jump_sound");
-            
+            //SoundManager.PlaySound("Jump_sound");
         }
         pogoChargeBar.fillAmount = chargeValue;
 
@@ -114,13 +113,21 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("IsChargingJump", false);
             animator.SetBool("IsJumping", true);
-            PlayerRotatesInAir();
+
+
+            if (rb.velocity.y >= 8)
+            {
+                animator.SetFloat("RotationY", rb.velocity.y);
+               // PlayerRotatesInAir();
+            }
+            //PlayerRotatesInAir();
         }
         else if (isGrounded == true) //zodra hij op de grond staat
         {
             animator.SetBool("IsJumping", false);
             myRotationValue = 0; //myRotationValue wordt op 0 gezet
             transform.rotation = Quaternion.AngleAxis(myRotationValue, Vector3.back); //transform.rotation op de z as wordt hetzelfde als de myRotationValue, in dit geval is dat 0
+            animator.SetFloat("RotationY", rb.velocity.y);
         }
         #endregion
     }
@@ -174,7 +181,7 @@ public class PlayerMovement : MonoBehaviour
         {
             myRotationValue += Time.deltaTime * jumpRotationTimer;
             transform.rotation = Quaternion.AngleAxis(myRotationValue, Vector3.back); //de rotatie op de Z as wordt ge-Lerpt naar de myRotationValue 
-            myRotationValue += Time.deltaTime * 1000; //myRationValue wordt + de time.deltatime gedaan, keer 1000
+            //myRotationValue += Time.deltaTime * 1000; //myRationValue wordt + de time.deltatime gedaan, keer 1000
         }
     }
      
