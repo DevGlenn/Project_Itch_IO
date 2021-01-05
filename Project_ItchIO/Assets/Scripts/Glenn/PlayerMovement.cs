@@ -30,6 +30,8 @@ public class PlayerMovement : MonoBehaviour
     private float jumpRotationTimer = 1f;
     private float myRotationValue = 0;
 
+    private Animator animator;
+
     public bool FacingRight
     {
         get
@@ -52,13 +54,15 @@ public class PlayerMovement : MonoBehaviour
     }
     void Start()
     {
+        animator = GetComponent<Animator>();
+
         rectTransform = GetComponent<RectTransform>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-        
+        animator.SetBool("IsJumping", !isGrounded);
 
         Jump();
 
@@ -88,10 +92,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
+        
         #region Jump
         // charge power whenever you hold down the space button
         if (Input.GetKey(KeyCode.Space) && isGrounded)
         {
+            animator.SetBool("IsChargingJump", true);
             chargeValue = Mathf.Clamp01(chargeValue + Time.deltaTime / jumpTime); // charge jump and prevent value from exceeding 1
         }
 
@@ -106,10 +112,13 @@ public class PlayerMovement : MonoBehaviour
 
         if (isGrounded == false)
         {
+            animator.SetBool("IsChargingJump", false);
+            animator.SetBool("IsJumping", true);
             PlayerRotatesInAir();
         }
         else if (isGrounded == true) //zodra hij op de grond staat
         {
+            animator.SetBool("IsJumping", false);
             myRotationValue = 0; //myRotationValue wordt op 0 gezet
             transform.rotation = Quaternion.AngleAxis(myRotationValue, Vector3.back); //transform.rotation op de z as wordt hetzelfde als de myRotationValue, in dit geval is dat 0
         }

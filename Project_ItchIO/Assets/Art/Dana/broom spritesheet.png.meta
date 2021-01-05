@@ -1,7 +1,61 @@
 fileFormatVersion: 2
 guid: 09db2939e041b4741b1b712b570605a9
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -504672912269335458
+    second: broom spritesheet_0
+  - first:
+      213: -3616597904935463009
+    second: broom spritesheet_1
+  - first:
+      213: -266129422840330530
+    second: broom spritesheet_2
+  - first:
+      213: -8657050726208274932
+    second: broom spritesheet_3
+  - first:
+      213: 2797078351712813038
+    second: broom spritesheet_4
+  - first:
+      213: 4790392222991452067
+    second: broom spritesheet_5
+  - first:
+      213: 7349986407408492171
+    second: broom spritesheet_6
+  - first:
+      213: 5886046575573524698
+    second: broom spritesheet_7
+  - first:
+      213: 7412839223312181502
+    second: broom spritesheet_8
+  - first:
+      213: -4434339673716461148
+    second: broom spritesheet_9
+  - first:
+      213: 6725013119686948475
+    second: broom spritesheet_10
+  - first:
+      213: -8077775928965592737
+    second: broom spritesheet_11
+  - first:
+      213: -2857768419742779086
+    second: broom spritesheet_12
+  - first:
+      213: 5227990621985177271
+    second: broom spritesheet_13
+  - first:
+      213: -4403801150205839773
+    second: broom spritesheet_14
+  - first:
+      213: -1560090794923595131
+    second: broom spritesheet_15
+  - first:
+      213: -2670661440392310616
+    second: broom spritesheet_16
+  - first:
+      213: 7768661990732642051
+    second: broom spritesheet_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +86,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,7 +95,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +127,348 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: broom spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2086
+        width: 355
+        height: 821
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9756e4fd534fcdc0800000000000000
+      internalID: -3616597904935463009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broom spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2098
+        width: 332
+        height: 733
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6825f23b48e4cf0800000000000000
+      internalID: -266129422840330530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broom spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 2089
+        width: 383
+        height: 687
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e71d54b3afbd780800000000000000
+      internalID: -8657050726208274932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broom spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 2095
+        width: 392
+        height: 644
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a70332a854ea7240800000000000000
+      internalID: 4790392222991452067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broom spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 2095
+        width: 375
+        height: 705
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e588512b5600660800000000000000
+      internalID: 7349986407408492171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broom spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1048
+        width: 327
+        height: 808
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0e674cc207fa150800000000000000
+      internalID: 5886046575573524698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broom spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1114
+        width: 291
+        height: 859
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8ea9aaff1bfd660800000000000000
+      internalID: 7412839223312181502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broom spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1220
+        width: 290
+        height: 809
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a175b69f8f0672c0800000000000000
+      internalID: -4434339673716461148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broom spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1228
+        width: 338
+        height: 851
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7638cc3dcb045d50800000000000000
+      internalID: 6725013119686948475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broom spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 1197
+        width: 366
+        height: 861
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f590eca2799f5ef80800000000000000
+      internalID: -8077775928965592737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broom spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 62
+        width: 369
+        height: 916
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239f6ea63ca2758d0800000000000000
+      internalID: -2857768419742779086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broom spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 5
+        width: 365
+        height: 851
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7beff7885cd8d8840800000000000000
+      internalID: 5227990621985177271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broom spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 17
+        width: 406
+        height: 769
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366368caf2e82e2c0800000000000000
+      internalID: -4403801150205839773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broom spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 12
+        width: 370
+        height: 741
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ae83f00b1795ae0800000000000000
+      internalID: -1560090794923595131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broom spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 6
+        width: 355
+        height: 820
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0551ad197efead0800000000000000
+      internalID: -2670661440392310616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
