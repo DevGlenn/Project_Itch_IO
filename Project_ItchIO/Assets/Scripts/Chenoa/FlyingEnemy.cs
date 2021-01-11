@@ -16,8 +16,11 @@ public class FlyingEnemy : Enemy
 
     private bool goingToSecondPos = true;
 
+    public Animator animator; //Enemy.cs moet erbij dus daarom is het public
+
     void Start()
     {
+        base.Start();
         flyingEnemyRenderer = gameObject.GetComponent<SpriteRenderer>(); 
         flyingEnemyRenderer.flipX = true;
 
@@ -25,12 +28,18 @@ public class FlyingEnemy : Enemy
         firstPos = transform.position;
         secondPos = transform.position += journeyLength;
         transform.position = firstPos;
+
+        animator = gameObject.GetComponent<Animator>();
+
     }
 
     void Update()
     {
         currentPos.x = transform.position.x;
-        Flying();
+        if (flyingEnemyIsDead == false)
+        {
+            Flying();
+        }
     }
 
     private void Flying()
