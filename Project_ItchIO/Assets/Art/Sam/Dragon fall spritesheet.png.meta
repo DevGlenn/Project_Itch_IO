@@ -1,7 +1,61 @@
 fileFormatVersion: 2
 guid: 49596e298fc87a647aa6bef55b342306
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6293618713217254139
+    second: Dragon fall spritesheet_0
+  - first:
+      213: 3440211986590682440
+    second: Dragon fall spritesheet_1
+  - first:
+      213: 1611205656291479016
+    second: Dragon fall spritesheet_2
+  - first:
+      213: -4666618245967773538
+    second: Dragon fall spritesheet_3
+  - first:
+      213: -7813803951743953442
+    second: Dragon fall spritesheet_4
+  - first:
+      213: -3228761735785411901
+    second: Dragon fall spritesheet_5
+  - first:
+      213: 7296345299964053002
+    second: Dragon fall spritesheet_6
+  - first:
+      213: 6990830598469060461
+    second: Dragon fall spritesheet_7
+  - first:
+      213: 737578610252211335
+    second: Dragon fall spritesheet_8
+  - first:
+      213: 3173123114390073370
+    second: Dragon fall spritesheet_0
+  - first:
+      213: -5337085679287464172
+    second: Dragon fall spritesheet_1
+  - first:
+      213: -280547835631665621
+    second: Dragon fall spritesheet_2
+  - first:
+      213: 5599359589935448240
+    second: Dragon fall spritesheet_3
+  - first:
+      213: 3486195526901789763
+    second: Dragon fall spritesheet_4
+  - first:
+      213: -6552141807759680947
+    second: Dragon fall spritesheet_5
+  - first:
+      213: 2158907933749914766
+    second: Dragon fall spritesheet_6
+  - first:
+      213: -7419465019412990327
+    second: Dragon fall spritesheet_7
+  - first:
+      213: 6865479216268352481
+    second: Dragon fall spritesheet_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +86,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,7 +95,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +127,222 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Dragon fall spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 237
+        width: 1028
+        height: 795
+      alignment: 9
+      pivot: {x: 0.4775193, y: 0.085943684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a103dcd19a2390c20800000000000000
+      internalID: 3173123114390073370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon fall spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 268
+        width: 859
+        height: 758
+      alignment: 9
+      pivot: {x: 0.52109474, y: 0.07470477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f0f3e0adcdee5b0800000000000000
+      internalID: -5337085679287464172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon fall spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 268
+        width: 828
+        height: 721
+      alignment: 9
+      pivot: {x: 0.4385951, y: 0.08445712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e7baada3b4b1cf0800000000000000
+      internalID: -280547835631665621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon fall spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3823
+        y: 258
+        width: 665
+        height: 768
+      alignment: 9
+      pivot: {x: 0.82396835, y: 0.090571165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b087cf51ebe4bd40800000000000000
+      internalID: 5599359589935448240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon fall spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 5026
+        y: 226
+        width: 659
+        height: 769
+      alignment: 9
+      pivot: {x: 0.83278185, y: 0.087940745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344798e6c54716030800000000000000
+      internalID: 3486195526901789763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon fall spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 6223
+        y: 200
+        width: 664
+        height: 768
+      alignment: 9
+      pivot: {x: 0.82882136, y: 0.08679732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a9f769dbd1215a0800000000000000
+      internalID: -6552141807759680947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon fall spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 7420
+        y: 163
+        width: 664
+        height: 769
+      alignment: 9
+      pivot: {x: 0.83609635, y: 0.08919705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cafedc35bf5fd10800000000000000
+      internalID: 2158907933749914766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon fall spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 8622
+        y: 142
+        width: 665
+        height: 774
+      alignment: 9
+      pivot: {x: 0.83268476, y: 0.08737265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986b376ffd3c80990800000000000000
+      internalID: -7419465019412990327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon fall spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 9824
+        y: 142
+        width: 665
+        height: 774
+      alignment: 9
+      pivot: {x: 0.8283306, y: 0.09111719}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb908ae8f4174f50800000000000000
+      internalID: 6865479216268352481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
