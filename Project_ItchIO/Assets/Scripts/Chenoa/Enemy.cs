@@ -39,8 +39,9 @@ public class Enemy : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D collision)
     {
         PlayerMovement player = collision.collider.GetComponent<PlayerMovement>(); //de player = zijn eigen collider en dan get hij het script PlayerMovement
-        if (player != null && collision.collider == player.PlayerCollider && flyingEnemyIsDead == false) //als de player bestaat en de de collision de player collider is
+        if (player != null && collision.collider == player.PlayerCollider) //als de player bestaat en de de collision de player collider is
         {
+            Debug.Log(collision.collider);
             player.TakeDamage(); //doe de TakeDamage functie van het player script
 		}
     }

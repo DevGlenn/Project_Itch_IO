@@ -1685,7 +1685,7 @@ Transform:
   m_GameObject: {fileID: 1794014491}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -5, z: 0}
-  m_LocalScale: {x: 4.7977176, y: 0.2897217, z: 0.2897217}
+  m_LocalScale: {x: 25.547846, y: 0.2897217, z: 0.2897217}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -2426,6 +2426,10 @@ PrefabInstance:
       propertyPath: hearts.Array.data[2]
       value: 
       objectReference: {fileID: 1784715261}
+    - target: {fileID: 3208348542476895752, guid: 83cc200f04212bd49ac9e80d330f638c, type: 3}
+      propertyPath: jumpForce
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3208348542476895757, guid: 83cc200f04212bd49ac9e80d330f638c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.93

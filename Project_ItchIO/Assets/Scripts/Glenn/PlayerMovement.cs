@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(rb.velocity.y);
+        //Debug.Log(rb.velocity.y);
         animator.SetBool("IsJumping", !isGrounded);
 
         Jump();
@@ -88,6 +88,8 @@ public class PlayerMovement : MonoBehaviour
         {
             spriteRenderer.flipX = false;
         }
+
+        Debug.Log(isGrounded);
     }
 
 
@@ -188,9 +190,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        isGrounded = false;
+        if (collision.gameObject.tag == ("Ground"))
+        {
+            isGrounded = false;
+        }
     }
-   
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "HeartPickup")
