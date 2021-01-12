@@ -62,6 +62,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(rb.velocity.y);
         animator.SetBool("IsJumping", !isGrounded);
 
         Jump();
@@ -103,9 +104,10 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Space) && isGrounded)
         {
-            rb.velocity = new Vector2(2f * FacingDirection * chargeValue, chargeValue * jumpForce); // execute jump
+            rb.velocity = new Vector2(20f * FacingDirection * chargeValue, chargeValue * jumpForce); // execute jump
             chargeValue = 0f; // reset charge
             //SoundManager.PlaySound("Jump_sound");
+            SoundManager.PlaySound("Jump_sound");
         }
         pogoChargeBar.fillAmount = chargeValue;
 
@@ -115,11 +117,12 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("IsJumping", true);
 
 
-            if (rb.velocity.y >= 8)
+            if (rb.velocity.y >= 20)
             {
                 animator.SetFloat("RotationY", rb.velocity.y);
                // PlayerRotatesInAir();
             }
+
             //PlayerRotatesInAir();
         }
         else if (isGrounded == true) //zodra hij op de grond staat
@@ -157,7 +160,6 @@ public class PlayerMovement : MonoBehaviour
             Destroy(gameObject);
             SoundManager.PlaySound("death_sound");
 
-
         }
     }
    
@@ -173,16 +175,6 @@ public class PlayerMovement : MonoBehaviour
         jumpPickupIsPickedUp = false;
         jumpTime = 1f;
         jumpPickupTimer = 10f;
-    }
-
-    private void PlayerRotatesInAir()
-    {
-        if (myRotationValue < 360) //als de myRotationValue kleiner is dan 360
-        {
-            myRotationValue += Time.deltaTime * jumpRotationTimer;
-            transform.rotation = Quaternion.AngleAxis(myRotationValue, Vector3.back); //de rotatie op de Z as wordt ge-Lerpt naar de myRotationValue 
-            //myRotationValue += Time.deltaTime * 1000; //myRationValue wordt + de time.deltatime gedaan, keer 1000
-        }
     }
      
     private void OnCollisionEnter2D(Collision2D other)
