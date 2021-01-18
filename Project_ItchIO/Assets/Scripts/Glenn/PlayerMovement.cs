@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator animator;
 
+    public bool isDeath;
 
     public bool FacingRight
     {
@@ -55,7 +56,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void Start()
     {
-
+        isDeath = false;
         animator = GetComponent<Animator>();
 
         rectTransform = GetComponent<RectTransform>();
@@ -161,11 +162,12 @@ public class PlayerMovement : MonoBehaviour
 		}
         if (hp == 0) 
         {
-            Destroy(gameObject);
+            isDeath = true;
             SoundManager.PlaySound("death_sound");
 
         }
     }
+
    
     private void GetJumpPickup()
     {

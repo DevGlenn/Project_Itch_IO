@@ -4,23 +4,18 @@ using UnityEngine;
 
 public class CheckPoint : MonoBehaviour
 {
-    [SerializeField] private Transform respawnPos;
-    [SerializeField] private Transform player;
+    private GameManager gm;
 
     private void Start()
-    { 
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (player.position == respawnPos.position)
+        gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
         {
-
+            gm.lastCheckpointPosition = transform.position;
+            Debug.Log(gm.lastCheckpointPosition);
         }
-    }
-
-    private void Checkpoint()
-    {
-
     }
 }

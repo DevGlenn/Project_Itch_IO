@@ -10,6 +10,7 @@ TagManager:
   - JumpPickup
   - Ground
   - Checkpoint
+  - GM
   layers:
   - Default
   - TransparentFX
