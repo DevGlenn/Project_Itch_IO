@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator animator;
 
+
     public bool FacingRight
     {
         get
@@ -54,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void Start()
     {
+
         animator = GetComponent<Animator>();
 
         rectTransform = GetComponent<RectTransform>();
@@ -89,7 +91,7 @@ public class PlayerMovement : MonoBehaviour
             spriteRenderer.flipX = false;
         }
 
-        Debug.Log(isGrounded);
+       // Debug.Log(isGrounded);
     }
 
 
@@ -209,5 +211,7 @@ public class PlayerMovement : MonoBehaviour
             GetJumpPickup();
             Destroy(collision.gameObject);
         }
+
     }
+
 }

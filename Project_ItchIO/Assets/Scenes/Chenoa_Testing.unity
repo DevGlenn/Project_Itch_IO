@@ -210,8 +210,8 @@ GameObject:
   - component: {fileID: 118327110}
   - component: {fileID: 118327109}
   m_Layer: 0
-  m_Name: New Sprite
-  m_TagString: Untagged
+  m_Name: Checkpoint
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2147,6 +2147,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3208348542476895766, guid: 83cc200f04212bd49ac9e80d330f638c, type: 3}
   m_PrefabInstance: {fileID: 3208348542903687801}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &2056313973 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3208348542476895757, guid: 83cc200f04212bd49ac9e80d330f638c, type: 3}
+  m_PrefabInstance: {fileID: 3208348542903687801}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2119455362
 GameObject:
   m_ObjectHideFlags: 0
@@ -2430,6 +2435,10 @@ PrefabInstance:
       propertyPath: jumpForce
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3208348542476895752, guid: 83cc200f04212bd49ac9e80d330f638c, type: 3}
+      propertyPath: respawnPosition
+      value: 
+      objectReference: {fileID: 2056313973}
     - target: {fileID: 3208348542476895757, guid: 83cc200f04212bd49ac9e80d330f638c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.93
