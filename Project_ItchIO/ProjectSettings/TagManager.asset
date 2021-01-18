@@ -9,6 +9,8 @@ TagManager:
   - HeartPickup
   - JumpPickup
   - Ground
+  - Checkpoint
+  - GM
   layers:
   - Default
   - TransparentFX

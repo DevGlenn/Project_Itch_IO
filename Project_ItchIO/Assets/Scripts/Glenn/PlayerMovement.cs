@@ -32,6 +32,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator animator;
 
+    public bool isDeath;
+
     public bool FacingRight
     {
         get
@@ -54,6 +56,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void Start()
     {
+        isDeath = false;
         animator = GetComponent<Animator>();
 
         rectTransform = GetComponent<RectTransform>();
@@ -62,7 +65,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(rb.velocity.y);
+        //Debug.Log(rb.velocity.y);
         animator.SetBool("IsJumping", !isGrounded);
 
         Jump();
@@ -88,6 +91,8 @@ public class PlayerMovement : MonoBehaviour
         {
             spriteRenderer.flipX = false;
         }
+
+       // Debug.Log(isGrounded);
     }
 
 
@@ -157,11 +162,12 @@ public class PlayerMovement : MonoBehaviour
 		}
         if (hp == 0) 
         {
-            Destroy(gameObject);
+            isDeath = true;
             SoundManager.PlaySound("death_sound");
 
         }
     }
+
    
     private void GetJumpPickup()
     {
@@ -188,9 +194,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        isGrounded = false;
+        if (collision.gameObject.tag == ("Ground"))
+        {
+            isGrounded = false;
+        }
     }
-   
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "HeartPickup")
@@ -204,5 +213,7 @@ public class PlayerMovement : MonoBehaviour
             GetJumpPickup();
             Destroy(collision.gameObject);
         }
+
     }
+
 }
