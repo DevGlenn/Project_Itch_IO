@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Image pogoChargeBar;
     [SerializeField] private float jumpForce;
     [SerializeField] private Collider2D playerCollider;
-    private bool isGrounded;
+    public bool isGrounded;
     private float chargeValue; // value from 0 to 1
 
 
