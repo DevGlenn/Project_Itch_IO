@@ -1,7 +1,46 @@
 fileFormatVersion: 2
 guid: 37c33d4bd91bfc94485d6ebb3678ed61
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5047853107730093069
+    second: dragon walk finaaa_0
+  - first:
+      213: 2668835680300971031
+    second: dragon walk finaaa_1
+  - first:
+      213: 4927086233601634898
+    second: dragon walk finaaa_2
+  - first:
+      213: -1613353793898533044
+    second: dragon walk finaaa_3
+  - first:
+      213: 8194557051824938496
+    second: dragon walk finaaa_4
+  - first:
+      213: -5111377672114451875
+    second: dragon walk finaaa_5
+  - first:
+      213: 1216604026578085884
+    second: dragon walk finaaa_6
+  - first:
+      213: -8418299527266098466
+    second: dragon walk finaaa_7
+  - first:
+      213: -1409288920462092937
+    second: dragon walk finaaa_8
+  - first:
+      213: 6697940908548626079
+    second: dragon walk finaaa_9
+  - first:
+      213: -3500083458644853316
+    second: dragon walk finaaa_10
+  - first:
+      213: -4186882870797087883
+    second: dragon walk finaaa_11
+  - first:
+      213: 2019787127042470231
+    second: dragon walk finaaa_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +71,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,7 +80,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +112,306 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: dragon walk finaaa_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 294
+        width: 1133
+        height: 595
+      alignment: 9
+      pivot: {x: 0.12783208, y: 0.71400505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb656bd75c62f9b0800000000000000
+      internalID: -5047853107730093069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon walk finaaa_1
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 297
+        width: 1132
+        height: 592
+      alignment: 9
+      pivot: {x: 0.12725638, y: 0.7171245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7143a3049eb990520800000000000000
+      internalID: 2668835680300971031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon walk finaaa_2
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 289
+        width: 1112
+        height: 584
+      alignment: 9
+      pivot: {x: 0.13210692, y: 0.71405727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252fa8b13d6806440800000000000000
+      internalID: 4927086233601634898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon walk finaaa_3
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 295
+        width: 1122
+        height: 578
+      alignment: 9
+      pivot: {x: 0.12161796, y: 0.707372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f26a9b5473c99e0800000000000000
+      internalID: -1613353793898533044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon walk finaaa_4
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 296
+        width: 1119
+        height: 562
+      alignment: 9
+      pivot: {x: 0.12341774, y: 0.7044999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e92b5d83ae8b170800000000000000
+      internalID: 8194557051824938496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon walk finaaa_5
+      rect:
+        serializedVersion: 2
+        x: 6070
+        y: 289
+        width: 1121
+        height: 570
+      alignment: 9
+      pivot: {x: 0.118131794, y: 0.70009315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a41c4a61db019b0800000000000000
+      internalID: -5111377672114451875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon walk finaaa_6
+      rect:
+        serializedVersion: 2
+        x: 7267
+        y: 298
+        width: 1128
+        height: 568
+      alignment: 9
+      pivot: {x: 0.12197137, y: 0.7105815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf72f749aee32e010800000000000000
+      internalID: 1216604026578085884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon walk finaaa_7
+      rect:
+        serializedVersion: 2
+        x: 8463
+        y: 284
+        width: 1136
+        height: 589
+      alignment: 9
+      pivot: {x: 0.12639216, y: 0.71523887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed227789e213c2b80800000000000000
+      internalID: -8418299527266098466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon walk finaaa_8
+      rect:
+        serializedVersion: 2
+        x: 9658
+        y: 301
+        width: 1127
+        height: 572
+      alignment: 9
+      pivot: {x: 0.13303535, y: 0.71123433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77596fd8133317ce0800000000000000
+      internalID: -1409288920462092937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon walk finaaa_9
+      rect:
+        serializedVersion: 2
+        x: 10854
+        y: 294
+        width: 1142
+        height: 579
+      alignment: 9
+      pivot: {x: 0.13440163, y: 0.7210718}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f961994e4cdd3fc50800000000000000
+      internalID: 6697940908548626079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon walk finaaa_10
+      rect:
+        serializedVersion: 2
+        x: 12050
+        y: 283
+        width: 1148
+        height: 590
+      alignment: 9
+      pivot: {x: 0.1389215, y: 0.73176426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdb04b73a43d6fc0800000000000000
+      internalID: -3500083458644853316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon walk finaaa_11
+      rect:
+        serializedVersion: 2
+        x: 13254
+        y: 279
+        width: 1130
+        height: 594
+      alignment: 9
+      pivot: {x: 0.13749568, y: 0.72563744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bc8f9463435e5c0800000000000000
+      internalID: -4186882870797087883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon walk finaaa_12
+      rect:
+        serializedVersion: 2
+        x: 14457
+        y: 277
+        width: 1114
+        height: 596
+      alignment: 9
+      pivot: {x: 0.13366525, y: 0.7252433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751f545d0b9b70c10800000000000000
+      internalID: 2019787127042470231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
