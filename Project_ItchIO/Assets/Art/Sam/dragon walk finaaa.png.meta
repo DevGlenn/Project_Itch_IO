@@ -41,6 +41,45 @@ TextureImporter:
   - first:
       213: 2019787127042470231
     second: dragon walk finaaa_12
+  - first:
+      213: 1488706677019876939
+    second: dragon walk finaaa_0
+  - first:
+      213: -8198885953428545925
+    second: dragon walk finaaa_1
+  - first:
+      213: -6131882962072181802
+    second: dragon walk finaaa_2
+  - first:
+      213: 8461115235463062984
+    second: dragon walk finaaa_3
+  - first:
+      213: -2881350660358822245
+    second: dragon walk finaaa_4
+  - first:
+      213: -7816672406925210353
+    second: dragon walk finaaa_5
+  - first:
+      213: -5271880479580187544
+    second: dragon walk finaaa_6
+  - first:
+      213: -2694984203615280845
+    second: dragon walk finaaa_7
+  - first:
+      213: 6192965972618435601
+    second: dragon walk finaaa_8
+  - first:
+      213: 574125020595160594
+    second: dragon walk finaaa_9
+  - first:
+      213: -5931342290474453663
+    second: dragon walk finaaa_10
+  - first:
+      213: 8973562952929258158
+    second: dragon walk finaaa_11
+  - first:
+      213: -7767532223969893351
+    second: dragon walk finaaa_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -144,18 +183,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 53
-        y: 294
-        width: 1133
-        height: 595
-      alignment: 9
-      pivot: {x: 0.12783208, y: 0.71400505}
+        y: 281
+        width: 1143
+        height: 608
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fb656bd75c62f9b0800000000000000
-      internalID: -5047853107730093069
+      spriteID: b4e9582d5d2f8a410800000000000000
+      internalID: 1488706677019876939
       vertices: []
       indices: 
       edges: []
@@ -165,18 +204,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1257
-        y: 297
-        width: 1132
-        height: 592
-      alignment: 9
-      pivot: {x: 0.12725638, y: 0.7171245}
+        y: 281
+        width: 1142
+        height: 608
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7143a3049eb990520800000000000000
-      internalID: 2668835680300971031
+      spriteID: b7e93f73aa4b73e80800000000000000
+      internalID: -8198885953428545925
       vertices: []
       indices: 
       edges: []
@@ -187,17 +226,17 @@ TextureImporter:
         serializedVersion: 2
         x: 2453
         y: 289
-        width: 1112
+        width: 1119
         height: 584
-      alignment: 9
-      pivot: {x: 0.13210692, y: 0.71405727}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 252fa8b13d6806440800000000000000
-      internalID: 4927086233601634898
+      spriteID: 6d3ea612fec27eaa0800000000000000
+      internalID: -6131882962072181802
       vertices: []
       indices: 
       edges: []
@@ -207,18 +246,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3656
-        y: 295
-        width: 1122
-        height: 578
-      alignment: 9
-      pivot: {x: 0.12161796, y: 0.707372}
+        y: 281
+        width: 1128
+        height: 592
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4f26a9b5473c99e0800000000000000
-      internalID: -1613353793898533044
+      spriteID: 8c5eb6d4a7beb6570800000000000000
+      internalID: 8461115235463062984
       vertices: []
       indices: 
       edges: []
@@ -228,18 +267,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4860
-        y: 296
-        width: 1119
-        height: 562
-      alignment: 9
-      pivot: {x: 0.12341774, y: 0.7044999}
+        y: 281
+        width: 1127
+        height: 577
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00e92b5d83ae8b170800000000000000
-      internalID: 8194557051824938496
+      spriteID: b96a9f727d26308d0800000000000000
+      internalID: -2881350660358822245
       vertices: []
       indices: 
       edges: []
@@ -248,19 +287,19 @@ TextureImporter:
       name: dragon walk finaaa_5
       rect:
         serializedVersion: 2
-        x: 6070
-        y: 289
-        width: 1121
-        height: 570
-      alignment: 9
-      pivot: {x: 0.118131794, y: 0.70009315}
+        x: 6063
+        y: 273
+        width: 1135
+        height: 585
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5a41c4a61db019b0800000000000000
-      internalID: -5111377672114451875
+      spriteID: f0d00a34cd9958390800000000000000
+      internalID: -7816672406925210353
       vertices: []
       indices: 
       edges: []
@@ -270,18 +309,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 7267
-        y: 298
-        width: 1128
-        height: 568
-      alignment: 9
-      pivot: {x: 0.12197137, y: 0.7105815}
+        y: 289
+        width: 1135
+        height: 577
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf72f749aee32e010800000000000000
-      internalID: 1216604026578085884
+      spriteID: 8649e4ca2a486d6b0800000000000000
+      internalID: -5271880479580187544
       vertices: []
       indices: 
       edges: []
@@ -291,18 +330,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 8463
-        y: 284
-        width: 1136
-        height: 589
-      alignment: 9
-      pivot: {x: 0.12639216, y: 0.71523887}
+        y: 273
+        width: 1142
+        height: 600
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed227789e213c2b80800000000000000
-      internalID: -8418299527266098466
+      spriteID: 331e83c352e799ad0800000000000000
+      internalID: -2694984203615280845
       vertices: []
       indices: 
       edges: []
@@ -311,19 +350,19 @@ TextureImporter:
       name: dragon walk finaaa_8
       rect:
         serializedVersion: 2
-        x: 9658
-        y: 301
-        width: 1127
-        height: 572
-      alignment: 9
-      pivot: {x: 0.13303535, y: 0.71123433}
+        x: 9659
+        y: 289
+        width: 1135
+        height: 584
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77596fd8133317ce0800000000000000
-      internalID: -1409288920462092937
+      spriteID: 11cd0088db5d1f550800000000000000
+      internalID: 6192965972618435601
       vertices: []
       indices: 
       edges: []
@@ -333,18 +372,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 10854
-        y: 294
-        width: 1142
-        height: 579
-      alignment: 9
-      pivot: {x: 0.13440163, y: 0.7210718}
+        y: 289
+        width: 1151
+        height: 584
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f961994e4cdd3fc50800000000000000
-      internalID: 6697940908548626079
+      spriteID: 2160d351aa3b7f700800000000000000
+      internalID: 574125020595160594
       vertices: []
       indices: 
       edges: []
@@ -354,18 +393,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 12050
-        y: 283
-        width: 1148
-        height: 590
-      alignment: 9
-      pivot: {x: 0.1389215, y: 0.73176426}
+        y: 273
+        width: 1158
+        height: 600
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbdb04b73a43d6fc0800000000000000
-      internalID: -3500083458644853316
+      spriteID: 165b407cc93afada0800000000000000
+      internalID: -5931342290474453663
       vertices: []
       indices: 
       edges: []
@@ -375,18 +414,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 13254
-        y: 279
-        width: 1130
-        height: 594
-      alignment: 9
-      pivot: {x: 0.13749568, y: 0.72563744}
+        y: 273
+        width: 1142
+        height: 600
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57bc8f9463435e5c0800000000000000
-      internalID: -4186882870797087883
+      spriteID: eaa24f236ff788c70800000000000000
+      internalID: 8973562952929258158
       vertices: []
       indices: 
       edges: []
@@ -396,18 +435,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 14457
-        y: 277
-        width: 1114
-        height: 596
-      alignment: 9
-      pivot: {x: 0.13366525, y: 0.7252433}
+        y: 266
+        width: 1120
+        height: 607
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 751f545d0b9b70c10800000000000000
-      internalID: 2019787127042470231
+      spriteID: 914efd0b89e243490800000000000000
+      internalID: -7767532223969893351
       vertices: []
       indices: 
       edges: []

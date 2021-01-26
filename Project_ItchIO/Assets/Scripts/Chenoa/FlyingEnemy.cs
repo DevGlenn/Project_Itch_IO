@@ -12,25 +12,20 @@ public class FlyingEnemy : Enemy
     [SerializeField] private float journeyLengthX = 3;
     private Vector3 journeyLength;
 
-    private SpriteRenderer flyingEnemyRenderer;
-
     private bool goingToSecondPos = true;
 
     public Animator animator; //Enemy.cs moet erbij dus daarom is het public
 
     void Start()
     {
-        base.Start();
-        flyingEnemyRenderer = gameObject.GetComponent<SpriteRenderer>(); 
-        flyingEnemyRenderer.flipX = true;
-
+        base.Start();        
         journeyLength = new Vector3(journeyLengthX, 0, 0);
         firstPos = transform.position;
         secondPos = transform.position += journeyLength;
         transform.position = firstPos;
 
         animator = gameObject.GetComponent<Animator>();
-
+        transform.localScale = Vector3.Scale(transform.localScale, new Vector3(-1, 1, 1));
     }
 
     void Update()
@@ -38,27 +33,35 @@ public class FlyingEnemy : Enemy
         currentPos.x = transform.position.x;
         if (flyingEnemyIsDead == false)
         {
+            Destroy(GetComponent<PolygonCollider2D>());
+            gameObject.AddComponent<PolygonCollider2D>();
             Flying();
         }
     }
 
     private void Flying()
     {
-        transform.position = Vector3.Lerp(firstPos, secondPos, Mathf.PingPong(Time.time * speed, 1)); //lerp van first pos naar second pos en terug
+        transform.position = Vector3.Lerp(firstPos, secondPos, Mathf.PingPong(Time.time * speed, 1.0f)); //lerp van first pos naar second pos en terug
 
         if (currentPos.x < secondPos.x && goingToSecondPos == true) //als dit gameobject op de x as nog niet bij de second pos op x as is en je bent er wel naartoe aan het gaan
         {
-            flyingEnemyRenderer.flipX = true; //de flipX = true want dan kijkt hij naar rechts
-            if (currentPos.x > secondPos.x - 0.1f) //als je bijna bij de secondpos bent 
+            if (currentPos.x >= secondPos.x - 0.1f) //als je bijna bij de secondpos bent 
             {
+                Debug.Log("rechterkant!");
+                transform.localScale = Vector3.Scale(transform.localScale, new Vector3(-1, 1, 1));
+
                 goingToSecondPos = false; //ga dan weer terug naar de eerste pos
-                flyingEnemyRenderer.flipX = false; //en flip de sprite zodat je naar links kijkt
             }
         }
-        else if (currentPos.x < firstPos.x + 0.1f && goingToSecondPos == false) //anders als dit gameobject op de x as nog niet bij de first pos op x as is en je bent niet naar de second pos toe aan het gaan (dus naar de eerste pos)
+        else if (currentPos.x >= firstPos.x && goingToSecondPos == false) //anders als dit gameobject op de x as nog niet bij de first pos op x as is en je bent niet naar de second pos toe aan het gaan (dus naar de eerste pos)
         {
-            goingToSecondPos = true; //zet dan dat je naar de second pos gaat op true
-            flyingEnemyRenderer.flipX = false; //en kijk de andere kant op
+            if (currentPos.x <= firstPos.x + 0.1f)
+            {
+                Debug.Log("linkerkant!");
+                transform.localScale = Vector3.Scale(transform.localScale, new Vector3(-1, 1, 1));
+
+                goingToSecondPos = true; //zet dan dat je naar de second pos gaat op true
+            }
         }
     }
 }

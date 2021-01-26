@@ -11,6 +11,8 @@ TagManager:
   - Ground
   - Checkpoint
   - GM
+  - FlyingEnemy
+  - WalkingEnemy
   layers:
   - Default
   - TransparentFX
