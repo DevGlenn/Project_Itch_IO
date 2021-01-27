@@ -51,7 +51,6 @@ public class Spell : MonoBehaviour
             go.GetComponent<Rigidbody2D>().AddForce(-transform.up * bulletSpeed, ForceMode2D.Impulse);
 
         }
-        Debug.Log(spellPoint.transform.position);
         
         
     }
