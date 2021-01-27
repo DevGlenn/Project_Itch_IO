@@ -16,7 +16,7 @@ public class WalkingEnemy : Enemy
 
     private bool goingToSecondPos = true;
 
-    //Vector3 lTemp;
+    public Animator animator; //Enemy.cs moet erbij dus daarom is het public
 
     void Start()
     {
@@ -27,6 +27,7 @@ public class WalkingEnemy : Enemy
         secondPos = transform.position += journeyLength; //de secondpos is de positie waar hij op begint + de journeyLength
         transform.position = firstPos; //hij begint op de firstpos
 
+        animator = gameObject.GetComponent<Animator>();
         transform.localScale = Vector3.Scale(transform.localScale, new Vector3(-1, 1, 1));
     }
 

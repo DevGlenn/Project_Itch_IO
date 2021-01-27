@@ -35,7 +35,6 @@ public class Enemy : MonoBehaviour
         hp = -1;
         if (hp <= 0 && gameObject.tag == "FlyingEnemy") //als het hp kleiner is of gelijk aan 0 is
         {
-            Debug.Log("flying enemy dood");
             flyingEnemyIsDead = true;
             flyingEnemyScript.animator.SetBool("IsDead", true); //speel de animatie af
             flyingEnemyRigidbody2D.constraints &= ~RigidbodyConstraints2D.FreezePositionY; //freezed de positie op de Y as niet meer zodat hij naar beneden valt
@@ -43,9 +42,8 @@ public class Enemy : MonoBehaviour
         }
         if (hp <= 0 && gameObject.tag == "WalkingEnemy")
         {
-            Debug.Log("");
             walkingEnemyIsDead = true;
-            //dood gaan animatie moet nog!!
+            walkingEnemyScript.animator.SetBool("IsDead", true); //speel de animatie af
             walkingEnemyRigidbody2D.constraints &= ~RigidbodyConstraints2D.FreezePositionY; //freezed de positie op de Y as niet meer zodat hij naar beneden valt
             walkingEnemyScript.gameObject.GetComponent<PolygonCollider2D>().isTrigger = true; //maakt de draak een trigger want dan valt hij door alles heen
         }
