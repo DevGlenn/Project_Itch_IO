@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
     public Vector2 lastCheckpointPosition;
+    
 
     private void Awake()
     {
