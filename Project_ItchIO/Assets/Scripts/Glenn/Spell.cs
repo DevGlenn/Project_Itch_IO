@@ -11,14 +11,14 @@ public class Spell : MonoBehaviour
     private List<GameObject> bullets;
     private int allowedShootAmount = 1;
     private int shotAmount = 1;
-    private float spellThrust = 10.0f;
+    private float spellThrust = 5.0f;
     
   
     void Start()
     {
         bullets = new List<GameObject>();
         player = GetComponent<PlayerMovement>();
-        spellPrefab.AddComponent<Rigidbody2D>();
+        
     }
     private void Update()
     {

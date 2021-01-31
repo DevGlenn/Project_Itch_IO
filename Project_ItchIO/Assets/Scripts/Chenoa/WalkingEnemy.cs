@@ -50,7 +50,7 @@ public class WalkingEnemy : Enemy
         {
             if (currentPos.x >= secondPos.x - 0.1f) //als je bijna bij de secondpos bent 
             {
-                Debug.Log("rechterkant!");
+             
                 transform.localScale = Vector3.Scale(transform.localScale, new Vector3(-1, 1, 1));
 
                 goingToSecondPos = false; //ga dan weer terug naar de eerste pos
@@ -60,7 +60,7 @@ public class WalkingEnemy : Enemy
         {
             if (currentPos.x <= firstPos.x + 0.1f)
             {
-                Debug.Log("linkerkant!");
+            
                 transform.localScale = Vector3.Scale(transform.localScale, new Vector3(-1, 1, 1));
 
                 goingToSecondPos = true; //zet dan dat je naar de second pos gaat op true

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private RectTransform rectTransform;
+ 
     private SpriteRenderer spriteRenderer;
 
 
@@ -59,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
         isDeath = false;
         animator = GetComponent<Animator>();
 
-        rectTransform = GetComponent<RectTransform>();
+        
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 

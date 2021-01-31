@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8439615642550420034}
   m_Layer: 0
   m_Name: WalkingEnemy 1
-  m_TagString: Enemy
+  m_TagString: WalkingEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,6 +104,7 @@ MonoBehaviour:
   walkingEnemyIsDead: 0
   speed: 0.5
   journeyLengthX: 5
+  animator: {fileID: 0}
 --- !u!50 &3219468188470793343
 Rigidbody2D:
   serializedVersion: 4
